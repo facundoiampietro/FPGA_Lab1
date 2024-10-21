@@ -1,0 +1,32 @@
+# do Lab_FPGA.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Lab_FPGA
+# 
+# Top level modules:
+# 	Lab_FPGA
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Lab_FPGA_vlg_sample_tst
+# -- Compiling module Lab_FPGA_vlg_check_tst
+# -- Compiling module Lab_FPGA_vlg_vec_tst
+# 
+# Top level modules:
+# 	Lab_FPGA_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Lab_FPGA_vlg_vec_tst 
+# Loading work.Lab_FPGA_vlg_vec_tst
+# Loading work.Lab_FPGA
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.Lab_FPGA_vlg_sample_tst
+# Loading work.Lab_FPGA_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Lab_FPGA_v.sdo
+# Loading timing data from Lab_FPGA_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_FPGA_vlg_vec_tst File: Lab_FPGA.vt
+# Simulation passed !
+# ** Note: $finish    : Lab_FPGA.vt(152)
+#    Time: 1 us  Iteration: 0  Instance: /Lab_FPGA_vlg_vec_tst/tb_out
