@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Lab_FPGA
-Mon Oct 21 16:14:45 2024
+Thu Oct 24 16:16:29 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Oct 21 16:14:45 2024 ;
+; EDA Netlist Writer Status ; Successful - Thu Oct 24 16:16:29 2024 ;
 ; Revision Name             ; Lab_FPGA                              ;
 ; Top-level Entity Name     ; Lab_FPGA                              ;
 ; Family                    ; Cyclone III                           ;
@@ -66,20 +66,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                   ;
-+----------------------------------------------------------------------------------------------+
-; Generated Files                                                                              ;
-+----------------------------------------------------------------------------------------------+
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_7_1200mv_85c_slow.vo     ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_7_1200mv_0c_slow.vo      ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_min_1200mv_0c_fast.vo    ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA.vo                       ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_7_1200mv_85c_v_slow.sdo  ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_7_1200mv_0c_v_slow.sdo   ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_min_1200mv_0c_v_fast.sdo ;
-; C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/Lab_FPGA_v.sdo                    ;
-+----------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                             ;
++--------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                        ;
++--------------------------------------------------------------------------------------------------------+
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_7_1200mv_85c_slow.vo     ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_7_1200mv_0c_slow.vo      ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_min_1200mv_0c_fast.vo    ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA.vo                       ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_7_1200mv_85c_v_slow.sdo  ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_7_1200mv_0c_v_slow.sdo   ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_min_1200mv_0c_v_fast.sdo ;
+; C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/Lab_FPGA_v.sdo                    ;
++--------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,19 +88,19 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Oct 21 16:14:44 2024
+    Info: Processing started: Thu Oct 24 16:16:28 2024
 Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog Lab_FPGA -c Lab_FPGA
-Info (204019): Generated file Lab_FPGA_7_1200mv_85c_slow.vo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_7_1200mv_0c_slow.vo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_min_1200mv_0c_fast.vo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA.vo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_7_1200mv_85c_v_slow.sdo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_7_1200mv_0c_v_slow.sdo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_min_1200mv_0c_v_fast.sdo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Lab_FPGA_v.sdo in folder "C:/Users/Yo/Documents/Laboratorio FPGA/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_7_1200mv_85c_slow.vo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_7_1200mv_0c_slow.vo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_min_1200mv_0c_fast.vo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA.vo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_7_1200mv_85c_v_slow.sdo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_7_1200mv_0c_v_slow.sdo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_min_1200mv_0c_v_fast.sdo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Lab_FPGA_v.sdo in folder "C:/Users/Yo/Documents/Lab_FPGA/FPGA_Lab1/Parte A/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 387 megabytes
-    Info: Processing ended: Mon Oct 21 16:14:45 2024
+    Info: Processing ended: Thu Oct 24 16:16:29 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

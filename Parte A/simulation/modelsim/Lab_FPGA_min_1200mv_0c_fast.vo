@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "10/21/2024 16:14:45"
+// DATE "10/24/2024 16:16:29"
 
 // 
 // Device: Altera EP3C120F780C7 Package FBGA780
@@ -40,7 +40,7 @@ output 	LED;
 
 // Design Ports Information
 // LED	=>  Location: PIN_AG19,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// SW3	=>  Location: PIN_AH19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// SW3	=>  Location: PIN_AC19,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // SW1	=>  Location: PIN_AC14,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // SW2	=>  Location: PIN_AD18,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
@@ -100,7 +100,7 @@ defparam \SW2~input .bus_hold = "false";
 defparam \SW2~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X72_Y0_N1
+// Location: IOIBUF_X94_Y0_N8
 cycloneiii_io_ibuf \SW3~input (
 	.i(SW3),
 	.ibar(gnd),
@@ -110,20 +110,20 @@ defparam \SW3~input .bus_hold = "false";
 defparam \SW3~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LCCOMB_X73_Y1_N24
+// Location: LCCOMB_X84_Y1_N24
 cycloneiii_lcell_comb \LED~0 (
 // Equation(s):
 // \LED~0_combout  = (\SW1~input_o  & (!\SW2~input_o )) # (!\SW1~input_o  & ((\SW2~input_o ) # (\SW3~input_o )))
 
 	.dataa(\SW1~input_o ),
-	.datab(\SW2~input_o ),
-	.datac(\SW3~input_o ),
-	.datad(gnd),
+	.datab(gnd),
+	.datac(\SW2~input_o ),
+	.datad(\SW3~input_o ),
 	.cin(gnd),
 	.combout(\LED~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \LED~0 .lut_mask = 16'h7676;
+defparam \LED~0 .lut_mask = 16'h5F5A;
 defparam \LED~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 
