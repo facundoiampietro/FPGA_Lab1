@@ -19,8 +19,76 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 224 72 392 88)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW1" (rect 5 0 29 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 160 88 224 104))
+)
+(pin
+	(input)
+	(rect 128 136 296 152)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW2" (rect 5 0 29 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 64 152 128 168))
+)
+(pin
+	(input)
+	(rect 224 192 392 208)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW3" (rect 5 0 29 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 160 208 224 224))
+)
+(pin
+	(output)
+	(rect 584 144 760 160)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "LED" (rect 90 0 111 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 760 160 824 176))
+)
 (symbol
-	(rect 272 160 336 208)
+	(rect 392 168 456 216)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 37 20 49)(font "Arial" ))
 	(port
@@ -52,7 +120,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 416 120 480 168)
+	(rect 520 128 584 176)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -85,7 +153,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 192 120 240 152)
+	(rect 296 128 344 160)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst5" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -110,7 +178,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 272 56 336 104)
+	(rect 392 64 456 112)
 	(text "XNOR" (rect 1 0 28 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -145,10 +213,47 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 240 136)
-	(pt 248 136)
+	(pt 344 144)
+	(pt 376 144)
 )
 (connector
-	(pt 248 136)
-	(pt 248 80)
+	(pt 376 96)
+	(pt 392 96)
 )
+(connector
+	(pt 376 184)
+	(pt 392 184)
+)
+(connector
+	(pt 456 88)
+	(pt 496 88)
+)
+(connector
+	(pt 496 88)
+	(pt 496 144)
+)
+(connector
+	(pt 496 144)
+	(pt 520 144)
+)
+(connector
+	(pt 456 192)
+	(pt 496 192)
+)
+(connector
+	(pt 496 192)
+	(pt 496 160)
+)
+(connector
+	(pt 496 160)
+	(pt 520 160)
+)
+(connector
+	(pt 376 96)
+	(pt 376 144)
+)
+(connector
+	(pt 376 144)
+	(pt 376 184)
+)
+(junction (pt 376 144))

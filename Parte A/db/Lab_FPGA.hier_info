@@ -1,4 +1,11 @@
-|Lab_FPGA
+|Block1
+LED <= Lab_FPGA:inst.LED
+SW1 => Lab_FPGA:inst.SW1
+SW2 => Lab_FPGA:inst.SW2
+SW3 => Lab_FPGA:inst.SW3
+
+
+|Block1|Lab_FPGA:inst
 SW1 => LED.IN0
 SW2 => LED.IN1
 SW2 => LED.IN0

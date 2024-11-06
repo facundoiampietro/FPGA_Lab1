@@ -3,11 +3,11 @@ K3
 13
 cModel Technology
 Z0 dC:\Users\Yo\Documents\Laboratorio FPGA\simulation\qsim
-vLab_FPGA
-Z1 IbRJ7MQ6DWFE296Xi77G750
-Z2 V_mb[HGT59D3<h@JE[og5F2
+vBlock1
+Z1 I0L<ELnk7RfhOBQZ>:E:_:3
+Z2 VgBMJbOcg:^aA^lD9BaN2@1
 Z3 dC:\Users\Facu\Documents\FPGA_Lab1\Parte A\simulation\qsim
-Z4 w1730897765
+Z4 w1730905740
 Z5 8Lab_FPGA.vo
 Z6 FLab_FPGA.vo
 L0 31
@@ -16,20 +16,20 @@ r1
 31
 Z8 !s90 -work|work|Lab_FPGA.vo|
 Z9 o-work work -O0
-Z10 n@lab_@f@p@g@a
+Z10 n@block1
 !i10b 1
-Z11 !s100 h8M@QoCW0<`eYek32GDZQ0
+Z11 !s100 ]0mOB6T04E;321Z8C_DKP1
 !s85 0
-Z12 !s108 1730897766.243000
+Z12 !s108 1730905741.141000
 Z13 !s107 Lab_FPGA.vo|
 !s101 -O0
-vLab_FPGA_vlg_check_tst
+vBlock1_vlg_check_tst
 !i10b 1
-Z14 !s100 ESQ<BhiKdh>a9olN_^G0b2
-Z15 I]8Zj;J`;5eN;B1H0@ZF6B0
-Z16 VUW=TFOBXMZ_DLIUlF]3P?3
+Z14 !s100 `Wd?mEGdMWQom=`DKF=;[3
+Z15 IV;;UXVd>>RXSNoSfeB>:F2
+Z16 VUjdXO5BmO=06g3kcShRmn1
 R3
-Z17 w1730897764
+Z17 w1730905739
 Z18 8Lab_FPGA.vt
 Z19 FLab_FPGA.vt
 L0 61
@@ -37,17 +37,17 @@ R7
 r1
 !s85 0
 31
-Z20 !s108 1730897766.290000
+Z20 !s108 1730905741.187000
 Z21 !s107 Lab_FPGA.vt|
 Z22 !s90 -work|work|Lab_FPGA.vt|
 !s101 -O0
 R9
-Z23 n@lab_@f@p@g@a_vlg_check_tst
-vLab_FPGA_vlg_sample_tst
+Z23 n@block1_vlg_check_tst
+vBlock1_vlg_sample_tst
 !i10b 1
-Z24 !s100 <Y2AUz3_T=YFi;45n49mo2
-Z25 I<[dHk:3^FIOZGK?MCa4YG2
-Z26 V:@fUzcVDHeAQjUMUg7Slg0
+Z24 !s100 ==c7AbnGHjWEa4B:<<S631
+Z25 I37T2F?<EQL?R:Wg8[jC4z3
+Z26 V=PYjI3L;]JjkbSU7:MLhe2
 R3
 R17
 R18
@@ -62,12 +62,12 @@ R21
 R22
 !s101 -O0
 R9
-Z27 n@lab_@f@p@g@a_vlg_sample_tst
-vLab_FPGA_vlg_vec_tst
+Z27 n@block1_vlg_sample_tst
+vBlock1_vlg_vec_tst
 !i10b 1
-Z28 !s100 Cl8T]c=^AFTlYWUTlNefU1
-Z29 I>cG`bcR6fP12AAhAJCjom2
-Z30 VG[N2=IEcTd4LV63dBZWE^2
+Z28 !s100 F`e:e9;T4dDDnIDm2<OG<2
+Z29 IVaSl[n6KiebOi3ZTVik[^3
+Z30 V8EbEX^g@9e0ZUXjTWSm=l2
 R3
 R17
 R18
@@ -82,4 +82,164 @@ R21
 R22
 !s101 -O0
 R9
-Z32 n@lab_@f@p@g@a_vlg_vec_tst
+Z32 n@block1_vlg_vec_tst
+vBlock2
+Z33 I2CQSdZLe5fKS_EDzKzUaa2
+Z34 Vhn<7YBY_H9<VNW;0HK0Ua2
+R3
+Z35 w1730905350
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z36 n@block2
+Z37 !s100 dlJ5[6=3e]]gCB1ZVeCZ;1
+Z38 !s108 1730905351.528000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock2_vlg_check_tst
+Z39 IjZoFL8T_EMLSoUiaZ78d21
+Z40 VGOYB77dB=5cW9FhiTg;8[3
+R3
+R35
+R18
+R19
+L0 67
+R7
+r1
+31
+Z41 !s108 1730905351.574000
+Z42 !s107 Lab_FPGA.vt|
+R22
+R9
+Z43 n@block2_vlg_check_tst
+Z44 !s100 aY4[@9Z5oQXQM5AU]Bj]]3
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock2_vlg_sample_tst
+Z45 IFf_oF]`20i522ZVG03I0>0
+Z46 VPXzLOVJPHhmYdX09`@^co1
+R3
+R35
+R18
+R19
+L0 29
+R7
+r1
+31
+R41
+R42
+R22
+R9
+Z47 n@block2_vlg_sample_tst
+Z48 !s100 d<MW>3:n=GBX=@_MCDQVj1
+!i10b 1
+!s85 0
+!s101 -O0
+vBlock2_vlg_vec_tst
+Z49 I5]@YA[=]^<CnVngY0IADH0
+Z50 VniRYiKO^Dm>FO`M@4a0Mg1
+R3
+R35
+R18
+R19
+Z51 L0 167
+R7
+r1
+31
+R41
+R42
+R22
+R9
+Z52 n@block2_vlg_vec_tst
+Z53 !s100 Fff__H<<?17=Te68>`Z5A1
+!i10b 1
+!s85 0
+!s101 -O0
+vLab_FPGA
+Z54 IbRJ7MQ6DWFE296Xi77G750
+Z55 V_mb[HGT59D3<h@JE[og5F2
+R3
+Z56 w1730897765
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z57 n@lab_@f@p@g@a
+Z58 !s100 h8M@QoCW0<`eYek32GDZQ0
+Z59 !s108 1730897766.243000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vLab_FPGA_vlg_check_tst
+Z60 !s100 ESQ<BhiKdh>a9olN_^G0b2
+Z61 I]8Zj;J`;5eN;B1H0@ZF6B0
+Z62 VUW=TFOBXMZ_DLIUlF]3P?3
+R3
+Z63 w1730897764
+R18
+R19
+L0 61
+R7
+r1
+31
+Z64 !s108 1730897766.290000
+R42
+R22
+R9
+Z65 n@lab_@f@p@g@a_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vLab_FPGA_vlg_sample_tst
+Z66 !s100 <Y2AUz3_T=YFi;45n49mo2
+Z67 I<[dHk:3^FIOZGK?MCa4YG2
+Z68 V:@fUzcVDHeAQjUMUg7Slg0
+R3
+R63
+R18
+R19
+L0 29
+R7
+r1
+31
+R64
+R42
+R22
+R9
+Z69 n@lab_@f@p@g@a_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vLab_FPGA_vlg_vec_tst
+Z70 !s100 Cl8T]c=^AFTlYWUTlNefU1
+Z71 I>cG`bcR6fP12AAhAJCjom2
+Z72 VG[N2=IEcTd4LV63dBZWE^2
+R3
+R63
+R18
+R19
+R31
+R7
+r1
+31
+R64
+R42
+R22
+R9
+Z73 n@lab_@f@p@g@a_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0

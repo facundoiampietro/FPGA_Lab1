@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "11/06/2024 09:56:05"
+// DATE "11/06/2024 12:08:03"
 
 // 
 // Device: Altera EP3C120F780C7 Package FBGA780
@@ -28,15 +28,15 @@
 
 `timescale 1 ps/ 1 ps
 
-module Lab_FPGA (
+module Block1 (
+	LED,
 	SW1,
 	SW2,
-	SW3,
-	LED);
+	SW3);
+output 	LED;
 input 	SW1;
 input 	SW2;
 input 	SW3;
-output 	LED;
 
 // Design Ports Information
 // LED	=>  Location: PIN_AG19,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -64,12 +64,12 @@ wire \LED~output_o ;
 wire \SW1~input_o ;
 wire \SW2~input_o ;
 wire \SW3~input_o ;
-wire \LED~0_combout ;
+wire \inst|LED~combout ;
 
 
 // Location: IOOBUF_X72_Y0_N9
 cycloneiii_io_obuf \LED~output (
-	.i(\LED~0_combout ),
+	.i(\inst|LED~combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
@@ -111,20 +111,20 @@ defparam \SW3~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: LCCOMB_X84_Y1_N24
-cycloneiii_lcell_comb \LED~0 (
+cycloneiii_lcell_comb \inst|LED (
 // Equation(s):
-// \LED~0_combout  = (\SW1~input_o  & (!\SW2~input_o )) # (!\SW1~input_o  & ((\SW2~input_o ) # (\SW3~input_o )))
+// \inst|LED~combout  = (\SW1~input_o  & (!\SW2~input_o )) # (!\SW1~input_o  & ((\SW2~input_o ) # (\SW3~input_o )))
 
 	.dataa(\SW1~input_o ),
 	.datab(gnd),
 	.datac(\SW2~input_o ),
 	.datad(\SW3~input_o ),
 	.cin(gnd),
-	.combout(\LED~0_combout ),
+	.combout(\inst|LED~combout ),
 	.cout());
 // synopsys translate_off
-defparam \LED~0 .lut_mask = 16'h5F5A;
-defparam \LED~0 .sum_lutc_input = "datac";
+defparam \inst|LED .lut_mask = 16'h5F5A;
+defparam \inst|LED .sum_lutc_input = "datac";
 // synopsys translate_on
 
 assign LED = \LED~output_o ;
