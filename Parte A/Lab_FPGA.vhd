@@ -6,9 +6,9 @@ entity Lab_FPGA is
 				SW2 : in STD_LOGIC;
 				SW3: in STD_LOGIC;
 				LED : out STD_LOGIC);
-end LAB_FPGA;
+end Lab_FPGA;
 
-architecture Behavioral of LAB_FPGA is
+architecture Behavioral of Lab_FPGA is
 
 begin
 	LED <= (SW1 xnor not(SW2)) or (SW3 and not(SW2));

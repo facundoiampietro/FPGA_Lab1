@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/24/2024 16:16:28"
+// Generated on "11/06/2024 09:56:04"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    Lab_FPGA
 // 
@@ -108,360 +108,7 @@ end
 // expected LED
 initial
 begin
-	LED_expected = 1'b0;
-	LED_expected = #6059 1'b1;
-	LED_expected = #7000 1'b0;
-	LED_expected = #7783 1'b1;
-	# 1066;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #2267 1'b1;
-		# 1066;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #2082 1'b1;
-	LED_expected = #2900 1'b0;
-	LED_expected = #2100 1'b1;
-	LED_expected = #2900 1'b0;
-	LED_expected = #1465 1'b1;
-	# 1866;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #1467 1'b1;
-		# 1866;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #5038 1'b1;
-	# 2666;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4000 1'b1;
-		# 2666;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #411 1'b1;
-	LED_expected = #9347 1'b0;
-	LED_expected = #10000 1'b1;
-	LED_expected = #653 1'b0;
-	LED_expected = #1465 1'b1;
-	LED_expected = #5800 1'b0;
-	LED_expected = #4200 1'b1;
-	LED_expected = #5800 1'b0;
-	LED_expected = #2849 1'b1;
-	# 2866;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #3800 1'b1;
-		# 2866;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #5026 1'b1;
-	# 1433;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #1900 1'b1;
-		# 1433;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #563 1'b1;
-	LED_expected = #204 1'b0;
-	LED_expected = #10800 1'b1;
-	LED_expected = #12304 1'b0;
-	LED_expected = #13000 1'b1;
-	LED_expected = #3692 1'b0;
-	LED_expected = #625 1'b1;
-	# 2266;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4400 1'b1;
-		# 2266;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #6571 1'b1;
-	LED_expected = #3200 1'b0;
-	LED_expected = #7525 1'b1;
-	LED_expected = #8200 1'b0;
-	LED_expected = #8281 1'b1;
-	# 368;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #2000 1'b1;
-		# 1333;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #2000 1'b1;
-	LED_expected = #966 1'b0;
-	LED_expected = #129 1'b1;
-	LED_expected = #3300 1'b0;
-	LED_expected = #9413 1'b1;
-	# 2066;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4600 1'b1;
-		# 2066;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #6804 1'b1;
-	LED_expected = #3800 1'b0;
-	LED_expected = #6200 1'b1;
-	LED_expected = #3800 1'b0;
-	LED_expected = #1156 1'b1;
-	LED_expected = #2719 1'b0;
-	LED_expected = #6400 1'b1;
-	LED_expected = #1000 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #1599 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #1599 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #2182 1'b0;
-	LED_expected = #2700 1'b1;
-	LED_expected = #2300 1'b0;
-	LED_expected = #2700 1'b1;
-	LED_expected = #6252 1'b0;
-	LED_expected = #11800 1'b1;
-	LED_expected = #3547 1'b0;
-	LED_expected = #2987 1'b1;
-	# 2133;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4533 1'b1;
-		# 2133;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #3805 1'b1;
-	# 1033;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #2300 1'b1;
-		# 1033;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #44 1'b1;
-	LED_expected = #39 1'b0;
-	LED_expected = #6700 1'b1;
-	LED_expected = #3261 1'b0;
-	LED_expected = #297 1'b1;
-	LED_expected = #5000 1'b0;
-	LED_expected = #5000 1'b1;
-	LED_expected = #5000 1'b0;
-	LED_expected = #4703 1'b1;
-	LED_expected = #4420 1'b0;
-	LED_expected = #8600 1'b1;
-	LED_expected = #8308 1'b0;
-	LED_expected = #4467 1'b1;
-	LED_expected = #2199 1'b0;
-	LED_expected = #4467 1'b1;
-	LED_expected = #2199 1'b0;
-	LED_expected = #4467 1'b1;
-	LED_expected = #873 1'b0;
-	LED_expected = #4165 1'b1;
-	LED_expected = #3000 1'b0;
-	LED_expected = #2835 1'b1;
-	LED_expected = #1637 1'b0;
-	LED_expected = #2250 1'b1;
-	LED_expected = #2750 1'b0;
-	LED_expected = #2250 1'b1;
-	LED_expected = #1113 1'b0;
-	LED_expected = #964 1'b1;
-	# 1333;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #2000 1'b1;
-		# 1333;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #1037 1'b1;
-	# 31;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #1700 1'b1;
-		# 1633;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #1700 1'b1;
-	LED_expected = #1603 1'b0;
-	LED_expected = #12 1'b1;
-	LED_expected = #5000 1'b0;
-	LED_expected = #5000 1'b1;
-	LED_expected = #5000 1'b0;
-	LED_expected = #13384 1'b1;
-	LED_expected = #7400 1'b0;
-	LED_expected = #5055 1'b1;
-	# 1499;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #1834 1'b1;
-		# 1499;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #3135 1'b1;
-	# 2066;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4600 1'b1;
-		# 2066;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #2451 1'b1;
-	LED_expected = #1217 1'b0;
-	LED_expected = #6700 1'b1;
-	LED_expected = #2083 1'b0;
-	LED_expected = #409 1'b1;
-	LED_expected = #5700 1'b0;
-	LED_expected = #4300 1'b1;
-	LED_expected = #5700 1'b0;
-	LED_expected = #3891 1'b1;
-	LED_expected = #7306 1'b0;
-	LED_expected = #11800 1'b1;
-	LED_expected = #894 1'b0;
-	LED_expected = #1779 1'b1;
-	LED_expected = #2550 1'b0;
-	LED_expected = #2450 1'b1;
-	LED_expected = #2550 1'b0;
-	LED_expected = #3677 1'b1;
-	LED_expected = #3900 1'b0;
-	LED_expected = #3094 1'b1;
-	LED_expected = #2061 1'b0;
-	LED_expected = #4700 1'b1;
-	LED_expected = #4964 1'b0;
-	LED_expected = #2400 1'b1;
-	LED_expected = #2600 1'b0;
-	LED_expected = #2400 1'b1;
-	LED_expected = #875 1'b0;
-	LED_expected = #487 1'b1;
-	LED_expected = #2000 1'b0;
-	LED_expected = #3000 1'b1;
-	LED_expected = #2000 1'b0;
-	LED_expected = #6208 1'b1;
-	LED_expected = #4100 1'b0;
-	LED_expected = #2205 1'b1;
-	LED_expected = #304 1'b0;
-	LED_expected = #2300 1'b1;
-	LED_expected = #2700 1'b0;
-	LED_expected = #2300 1'b1;
-	LED_expected = #2396 1'b0;
-	LED_expected = #1434 1'b1;
-	# 2666;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4000 1'b1;
-		# 2666;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #9940 1'b1;
-	LED_expected = #10000 1'b0;
-	LED_expected = #4472 1'b1;
-	LED_expected = #3900 1'b0;
-	LED_expected = #6100 1'b1;
-	LED_expected = #3900 1'b0;
-	LED_expected = #4256 1'b1;
-	# 171;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4067 1'b1;
-		# 2599;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #4067 1'b1;
-	LED_expected = #2430 1'b0;
-	LED_expected = #1834 1'b1;
-	LED_expected = #7800 1'b0;
-	LED_expected = #10366 1'b1;
-	# 1430;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #1700 1'b1;
-		# 1633;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #1700 1'b1;
-	LED_expected = #1676 1'b0;
-	LED_expected = #3000 1'b1;
-	LED_expected = #2000 1'b0;
-	LED_expected = #3000 1'b1;
-	LED_expected = #528 1'b0;
-	LED_expected = #2276 1'b1;
-	LED_expected = #5200 1'b0;
-	LED_expected = #6221 1'b1;
-	LED_expected = #3100 1'b0;
-	LED_expected = #4351 1'b1;
-	# 1299;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #2034 1'b1;
-		# 1299;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #5046 1'b1;
-	LED_expected = #4800 1'b0;
-	LED_expected = #3128 1'b1;
-	LED_expected = #1800 1'b0;
-	LED_expected = #3200 1'b1;
-	LED_expected = #1800 1'b0;
-	LED_expected = #6183 1'b1;
-	LED_expected = #3300 1'b0;
-	LED_expected = #1630 1'b1;
-	# 1813;
-	repeat(2)
-	begin
-		LED_expected = 1'b0;
-		LED_expected = #4333 1'b1;
-		# 2333;
-	end
-	LED_expected = 1'b0;
-	LED_expected = #4333 1'b1;
-	LED_expected = #860 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #1599 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #1599 1'b0;
-	LED_expected = #1734 1'b1;
-	LED_expected = #1262 1'b0;
-	LED_expected = #1642 1'b1;
-	LED_expected = #10800 1'b0;
-	LED_expected = #7558 1'b1;
-	LED_expected = #10837 1'b0;
-	LED_expected = #8200 1'b1;
-	LED_expected = #3184 1'b0;
-	LED_expected = #5400 1'b1;
-	LED_expected = #4600 1'b0;
-	LED_expected = #5400 1'b1;
-	LED_expected = #2379 1'b0;
-	LED_expected = #1455 1'b1;
-	LED_expected = #4400 1'b0;
-	LED_expected = #5600 1'b1;
-	LED_expected = #4400 1'b0;
-	LED_expected = #5603 1'b1;
-	LED_expected = #1550 1'b0;
-	LED_expected = #3450 1'b1;
-	LED_expected = #1550 1'b0;
-	LED_expected = #2059 1'b1;
-	LED_expected = #2000 1'b0;
-	LED_expected = #3000 1'b1;
-	LED_expected = #2000 1'b0;
-	LED_expected = #5547 1'b1;
-	LED_expected = #3900 1'b0;
-	LED_expected = #6100 1'b1;
-	LED_expected = #3900 1'b0;
+	LED_expected = 1'bX;
 end 
 // generate trigger
 always @(LED_expected or LED)
@@ -530,1085 +177,319 @@ Lab_FPGA i1 (
 initial
 begin
 	SW1 = 1'b0;
-	SW1 = #2628 1'b1;
-	SW1 = #3400 1'b0;
-	SW1 = #6600 1'b1;
-	SW1 = #3400 1'b0;
-	SW1 = #3972 1'b1;
-	SW1 = #1352 1'b0;
-	SW1 = #5600 1'b1;
-	SW1 = #4400 1'b0;
-	SW1 = #5600 1'b1;
-	SW1 = #3861 1'b0;
-	SW1 = #2200 1'b1;
-	SW1 = #1133 1'b0;
-	SW1 = #2200 1'b1;
-	SW1 = #1133 1'b0;
-	SW1 = #2200 1'b1;
-	SW1 = #812 1'b0;
-	SW1 = #2600 1'b1;
-	SW1 = #2400 1'b0;
-	SW1 = #2600 1'b1;
-	SW1 = #1909 1'b0;
-	SW1 = #3608 1'b1;
-	SW1 = #4300 1'b0;
-	SW1 = #2092 1'b1;
-	SW1 = #2380 1'b0;
-	SW1 = #13800 1'b1;
-	SW1 = #11593 1'b0;
-	SW1 = #11600 1'b1;
-	SW1 = #627 1'b0;
-	SW1 = #1750 1'b1;
-	SW1 = #7000 1'b0;
-	SW1 = #11250 1'b1;
-	# 389;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #2334 1'b1;
-		# 999;
-	end
-	SW1 = 1'b0;
-	SW1 = #2334 1'b1;
-	SW1 = #3773 1'b0;
-	SW1 = #5700 1'b1;
-	SW1 = #4300 1'b0;
-	SW1 = #5700 1'b1;
-	SW1 = #1138 1'b0;
-	SW1 = #6214 1'b1;
-	SW1 = #9000 1'b0;
-	SW1 = #8243 1'b1;
-	SW1 = #3500 1'b0;
-	SW1 = #5690 1'b1;
-	SW1 = #6200 1'b0;
-	SW1 = #11153 1'b1;
-	# 833;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #3400 1'b1;
-		# 3266;
-	end
-	SW1 = 1'b0;
-	SW1 = #3400 1'b1;
-	SW1 = #2435 1'b0;
-	SW1 = #1578 1'b1;
-	SW1 = #8200 1'b0;
-	SW1 = #11278 1'b1;
-	SW1 = #4600 1'b0;
-	SW1 = #4344 1'b1;
-	SW1 = #405 1'b0;
-	SW1 = #5500 1'b1;
-	SW1 = #4095 1'b0;
-	SW1 = #2880 1'b1;
-	# 3199;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #3467 1'b1;
-		# 3199;
-	end
-	SW1 = 1'b0;
-	SW1 = #589 1'b1;
-	# 1051;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #2200 1'b1;
-		# 1133;
-	end
-	SW1 = 1'b0;
-	SW1 = #2200 1'b1;
-	SW1 = #83 1'b0;
-	SW1 = #216 1'b1;
-	# 1066;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #2267 1'b1;
-		# 1066;
-	end
-	SW1 = 1'b0;
-	SW1 = #2052 1'b1;
-	SW1 = #1862 1'b0;
-	SW1 = #2750 1'b1;
-	SW1 = #2250 1'b0;
-	SW1 = #2750 1'b1;
-	SW1 = #3223 1'b0;
-	SW1 = #4700 1'b1;
-	SW1 = #5300 1'b0;
-	SW1 = #4700 1'b1;
-	SW1 = #2465 1'b0;
-	SW1 = #7325 1'b1;
-	SW1 = #9400 1'b0;
-	SW1 = #5983 1'b1;
-	SW1 = #3700 1'b0;
-	SW1 = #6300 1'b1;
-	SW1 = #3700 1'b0;
-	SW1 = #3592 1'b1;
-	SW1 = #2724 1'b0;
-	SW1 = #6500 1'b1;
-	SW1 = #776 1'b0;
-	SW1 = #2731 1'b1;
-	# 2933;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #3733 1'b1;
-		# 2933;
-	end
-	SW1 = 1'b0;
-	SW1 = #1004 1'b1;
-	SW1 = #102 1'b0;
-	SW1 = #5100 1'b1;
-	SW1 = #4900 1'b0;
-	SW1 = #5100 1'b1;
-	SW1 = #5261 1'b0;
-	SW1 = #5800 1'b1;
-	SW1 = #4200 1'b0;
-	SW1 = #5800 1'b1;
-	SW1 = #3737 1'b0;
-	SW1 = #1896 1'b1;
-	SW1 = #7400 1'b0;
-	SW1 = #14518 1'b1;
-	# 2333;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #4333 1'b1;
-		# 2333;
-	end
-	SW1 = 1'b0;
-	SW1 = #521 1'b1;
-	SW1 = #8013 1'b0;
-	SW1 = #10200 1'b1;
-	SW1 = #1787 1'b0;
-	SW1 = #478 1'b1;
-	# 2266;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #4400 1'b1;
-		# 2266;
-	end
-	SW1 = 1'b0;
-	SW1 = #4593 1'b1;
-	SW1 = #1950 1'b0;
-	SW1 = #3050 1'b1;
-	SW1 = #1950 1'b0;
-	SW1 = #2381 1'b1;
-	# 794;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #2034 1'b1;
-		# 1299;
-	end
-	SW1 = 1'b0;
-	SW1 = #2034 1'b1;
-	SW1 = #1590 1'b0;
-	SW1 = #5600 1'b1;
-	SW1 = #4400 1'b0;
-	SW1 = #5600 1'b1;
-	SW1 = #3316 1'b0;
-	SW1 = #679 1'b1;
-	SW1 = #8600 1'b0;
-	SW1 = #15511 1'b1;
-	SW1 = #8400 1'b0;
-	SW1 = #6810 1'b1;
-	SW1 = #3531 1'b0;
-	SW1 = #4000 1'b1;
-	SW1 = #4136 1'b0;
-	SW1 = #5400 1'b1;
-	SW1 = #4600 1'b0;
-	SW1 = #5400 1'b1;
-	SW1 = #5408 1'b0;
-	SW1 = #6400 1'b1;
-	SW1 = #3600 1'b0;
-	SW1 = #6400 1'b1;
-	SW1 = #1125 1'b0;
-	SW1 = #1131 1'b1;
-	# 1666;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #1667 1'b1;
-		# 1666;
-	end
-	SW1 = 1'b0;
-	SW1 = #1799 1'b1;
-	# 1833;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #1500 1'b1;
-		# 1833;
-	end
-	SW1 = 1'b0;
-	SW1 = #4006 1'b1;
-	SW1 = #3100 1'b0;
-	SW1 = #6900 1'b1;
-	SW1 = #3100 1'b0;
-	SW1 = #6419 1'b1;
-	SW1 = #5300 1'b0;
-	SW1 = #1414 1'b1;
-	SW1 = #2510 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #20000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
 	SW1 = #5000 1'b1;
 	SW1 = #5000 1'b0;
 	SW1 = #5000 1'b1;
-	SW1 = #2490 1'b0;
-	SW1 = #1020 1'b1;
-	SW1 = #2250 1'b0;
-	SW1 = #2750 1'b1;
-	SW1 = #2250 1'b0;
-	SW1 = #5904 1'b1;
-	SW1 = #4000 1'b0;
-	SW1 = #1826 1'b1;
-	SW1 = #1198 1'b0;
-	SW1 = #8800 1'b1;
-	SW1 = #11255 1'b0;
-	SW1 = #2067 1'b1;
-	SW1 = #1266 1'b0;
-	SW1 = #2067 1'b1;
-	SW1 = #1266 1'b0;
-	SW1 = #2067 1'b1;
-	SW1 = #14 1'b0;
-	SW1 = #2205 1'b1;
-	# 2533;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #4133 1'b1;
-		# 2533;
-	end
-	SW1 = 1'b0;
-	SW1 = #1930 1'b1;
-	SW1 = #19 1'b0;
-	SW1 = #12800 1'b1;
-	SW1 = #14196 1'b0;
-	SW1 = #11200 1'b1;
-	SW1 = #2737 1'b0;
-	SW1 = #4667 1'b1;
-	SW1 = #1999 1'b0;
-	SW1 = #4667 1'b1;
-	SW1 = #1999 1'b0;
-	SW1 = #4667 1'b1;
-	SW1 = #2470 1'b0;
-	SW1 = #3733 1'b1;
-	SW1 = #2933 1'b0;
-	SW1 = #3733 1'b1;
-	SW1 = #2933 1'b0;
-	SW1 = #3733 1'b1;
-	SW1 = #1514 1'b0;
-	SW1 = #383 1'b1;
-	# 1799;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #1534 1'b1;
-		# 1799;
-	end
-	SW1 = 1'b0;
-	SW1 = #4239 1'b1;
-	SW1 = #5800 1'b0;
-	SW1 = #4200 1'b1;
-	SW1 = #5800 1'b0;
-	SW1 = #1113 1'b1;
-	# 2349;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #2667 1'b1;
-		# 3999;
-	end
-	SW1 = 1'b0;
-	SW1 = #2667 1'b1;
-	SW1 = #3978 1'b0;
-	SW1 = #6200 1'b1;
-	SW1 = #4279 1'b0;
-	SW1 = #12000 1'b1;
-	SW1 = #5195 1'b0;
-	SW1 = #1711 1'b1;
-	SW1 = #4800 1'b0;
-	SW1 = #5200 1'b1;
-	SW1 = #4800 1'b0;
-	SW1 = #3489 1'b1;
-	# 208;
-	repeat(2)
-	begin
-		SW1 = 1'b0;
-		SW1 = #4067 1'b1;
-		# 2599;
-	end
-	SW1 = 1'b0;
-	SW1 = #4067 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #20000 1'b1;
+	SW1 = #25000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #35000 1'b0;
+	SW1 = #20000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #20000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #20000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #20000 1'b1;
+	SW1 = #40000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #15000 1'b1;
+	SW1 = #20000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #15000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #20000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #30000 1'b0;
+	SW1 = #10000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #25000 1'b1;
+	SW1 = #10000 1'b0;
+	SW1 = #5000 1'b1;
+	SW1 = #5000 1'b0;
+	SW1 = #10000 1'b1;
 end 
 
 // SW2
 initial
 begin
 	SW2 = 1'b0;
-	SW2 = #1357 1'b1;
-	# 2933;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #3733 1'b1;
-		# 2933;
-	end
-	SW2 = 1'b0;
-	SW2 = #6064 1'b1;
-	SW2 = #3600 1'b0;
-	SW2 = #4740 1'b1;
-	SW2 = #11800 1'b0;
-	SW2 = #6878 1'b1;
-	# 3532;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #3134 1'b1;
-		# 3532;
-	end
-	SW2 = 1'b0;
-	SW2 = #2432 1'b1;
-	# 485;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1867 1'b1;
-		# 1466;
-	end
-	SW2 = 1'b0;
-	SW2 = #1867 1'b1;
-	SW2 = #1960 1'b0;
-	SW2 = #1700 1'b1;
-	SW2 = #1633 1'b0;
-	SW2 = #1700 1'b1;
-	SW2 = #1633 1'b0;
-	SW2 = #1700 1'b1;
-	SW2 = #944 1'b0;
-	SW2 = #3450 1'b1;
-	SW2 = #1550 1'b0;
-	SW2 = #3450 1'b1;
-	SW2 = #1262 1'b0;
-	SW2 = #2624 1'b1;
-	# 2399;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4267 1'b1;
-		# 2399;
-	end
-	SW2 = 1'b0;
-	SW2 = #2907 1'b1;
-	# 1333;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2000 1'b1;
-		# 1333;
-	end
-	SW2 = 1'b0;
-	SW2 = #739 1'b1;
-	SW2 = #116 1'b0;
-	SW2 = #2650 1'b1;
-	SW2 = #2350 1'b0;
-	SW2 = #2650 1'b1;
-	SW2 = #2331 1'b0;
-	SW2 = #1800 1'b1;
-	SW2 = #1533 1'b0;
-	SW2 = #1800 1'b1;
-	SW2 = #1533 1'b0;
-	SW2 = #1800 1'b1;
-	SW2 = #1437 1'b0;
-	SW2 = #3208 1'b1;
-	# 2733;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #3933 1'b1;
-		# 2733;
-	end
-	SW2 = 1'b0;
-	SW2 = #727 1'b1;
-	# 2604;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2934 1'b1;
-		# 3732;
-	end
-	SW2 = 1'b0;
-	SW2 = #2934 1'b1;
-	SW2 = #1130 1'b0;
-	SW2 = #1467 1'b1;
-	SW2 = #1800 1'b0;
-	SW2 = #3200 1'b1;
-	SW2 = #1800 1'b0;
-	SW2 = #1733 1'b1;
-	# 786;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1967 1'b1;
-		# 1366;
-	end
-	SW2 = 1'b0;
-	SW2 = #1967 1'b1;
-	SW2 = #2419 1'b0;
-	SW2 = #3100 1'b1;
-	SW2 = #1900 1'b0;
-	SW2 = #3100 1'b1;
-	SW2 = #62 1'b0;
-	SW2 = #2182 1'b1;
-	SW2 = #3800 1'b0;
-	SW2 = #6200 1'b1;
-	SW2 = #3800 1'b0;
-	SW2 = #4052 1'b1;
-	# 1433;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1900 1'b1;
-		# 1433;
-	end
-	SW2 = 1'b0;
-	SW2 = #1867 1'b1;
-	SW2 = #2094 1'b0;
-	SW2 = #2450 1'b1;
-	SW2 = #2550 1'b0;
-	SW2 = #2450 1'b1;
-	SW2 = #456 1'b0;
-	SW2 = #2066 1'b1;
-	SW2 = #2200 1'b0;
-	SW2 = #2800 1'b1;
-	SW2 = #2200 1'b0;
-	SW2 = #734 1'b1;
-	# 1378;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4467 1'b1;
-		# 2199;
-	end
-	SW2 = 1'b0;
-	SW2 = #4467 1'b1;
-	SW2 = #1445 1'b0;
-	SW2 = #2667 1'b1;
-	SW2 = #3999 1'b0;
-	SW2 = #2667 1'b1;
-	SW2 = #3999 1'b0;
-	SW2 = #2667 1'b1;
-	SW2 = #9029 1'b0;
-	SW2 = #4000 1'b1;
-	SW2 = #2102 1'b0;
-	SW2 = #3933 1'b1;
-	SW2 = #2733 1'b0;
-	SW2 = #3933 1'b1;
-	SW2 = #2733 1'b0;
-	SW2 = #3933 1'b1;
-	SW2 = #983 1'b0;
-	SW2 = #2367 1'b1;
-	# 2333;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4333 1'b1;
-		# 2333;
-	end
-	SW2 = 1'b0;
-	SW2 = #2615 1'b1;
-	SW2 = #2200 1'b0;
-	SW2 = #2800 1'b1;
-	SW2 = #2200 1'b0;
-	SW2 = #2153 1'b1;
-	SW2 = #2394 1'b0;
-	SW2 = #2350 1'b1;
-	SW2 = #2650 1'b0;
-	SW2 = #2350 1'b1;
-	SW2 = #256 1'b0;
-	SW2 = #1014 1'b1;
-	# 1133;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2200 1'b1;
-		# 1133;
-	end
-	SW2 = 1'b0;
-	SW2 = #3016 1'b1;
-	# 1399;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1934 1'b1;
-		# 1399;
-	end
-	SW2 = 1'b0;
-	SW2 = #106 1'b1;
-	# 1122;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1667 1'b1;
-		# 1666;
-	end
-	SW2 = 1'b0;
-	SW2 = #1667 1'b1;
-	SW2 = #3328 1'b0;
-	SW2 = #5300 1'b1;
-	SW2 = #5928 1'b0;
-	SW2 = #13200 1'b1;
-	SW2 = #5257 1'b0;
-	SW2 = #5800 1'b1;
-	SW2 = #4200 1'b0;
-	SW2 = #5800 1'b1;
-	SW2 = #1779 1'b0;
-	SW2 = #1867 1'b1;
-	SW2 = #1466 1'b0;
-	SW2 = #1867 1'b1;
-	SW2 = #1466 1'b0;
-	SW2 = #1867 1'b1;
-	SW2 = #1420 1'b0;
-	SW2 = #2613 1'b1;
-	SW2 = #3300 1'b0;
-	SW2 = #6700 1'b1;
-	SW2 = #3300 1'b0;
-	SW2 = #4087 1'b1;
-	# 119;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4133 1'b1;
-		# 2533;
-	end
-	SW2 = 1'b0;
-	SW2 = #4133 1'b1;
-	SW2 = #3237 1'b0;
-	SW2 = #3450 1'b1;
-	SW2 = #1550 1'b0;
-	SW2 = #3450 1'b1;
-	SW2 = #729 1'b0;
-	SW2 = #2732 1'b1;
-	SW2 = #1650 1'b0;
-	SW2 = #3350 1'b1;
-	SW2 = #1650 1'b0;
-	SW2 = #618 1'b1;
-	# 795;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1934 1'b1;
-		# 1399;
-	end
-	SW2 = 1'b0;
-	SW2 = #1934 1'b1;
-	SW2 = #605 1'b0;
-	SW2 = #4942 1'b1;
-	SW2 = #3300 1'b0;
-	SW2 = #6700 1'b1;
-	SW2 = #3300 1'b0;
-	SW2 = #2528 1'b1;
-	SW2 = #1800 1'b0;
-	SW2 = #3200 1'b1;
-	SW2 = #1800 1'b0;
-	SW2 = #2430 1'b1;
-	# 378;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #3867 1'b1;
-		# 2799;
-	end
-	SW2 = 1'b0;
-	SW2 = #3867 1'b1;
-	SW2 = #2913 1'b0;
-	SW2 = #4133 1'b1;
-	SW2 = #2533 1'b0;
-	SW2 = #4133 1'b1;
-	SW2 = #2533 1'b0;
-	SW2 = #4133 1'b1;
-	SW2 = #2838 1'b0;
-	SW2 = #4533 1'b1;
-	SW2 = #2133 1'b0;
-	SW2 = #4533 1'b1;
-	SW2 = #2133 1'b0;
-	SW2 = #4533 1'b1;
-	SW2 = #1342 1'b0;
-	SW2 = #953 1'b1;
-	# 999;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2334 1'b1;
-		# 999;
-	end
-	SW2 = 1'b0;
-	SW2 = #2741 1'b1;
-	SW2 = #9600 1'b0;
-	SW2 = #10952 1'b1;
-	SW2 = #2600 1'b0;
-	SW2 = #2400 1'b1;
-	SW2 = #2600 1'b0;
-	SW2 = #1128 1'b1;
-	# 2733;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #3933 1'b1;
-		# 2733;
-	end
-	SW2 = 1'b0;
-	SW2 = #6533 1'b1;
-	SW2 = #3500 1'b0;
-	SW2 = #6500 1'b1;
-	SW2 = #3500 1'b0;
-	SW2 = #3263 1'b1;
-	SW2 = #2098 1'b0;
-	SW2 = #6000 1'b1;
-	SW2 = #4000 1'b0;
-	SW2 = #6000 1'b1;
-	SW2 = #3185 1'b0;
-	SW2 = #3000 1'b1;
-	SW2 = #3666 1'b0;
-	SW2 = #3000 1'b1;
-	SW2 = #3666 1'b0;
-	SW2 = #3000 1'b1;
-	SW2 = #3460 1'b0;
-	SW2 = #2600 1'b1;
-	SW2 = #2400 1'b0;
-	SW2 = #2600 1'b1;
-	SW2 = #6947 1'b0;
-	SW2 = #13600 1'b1;
-	SW2 = #1489 1'b0;
-	SW2 = #1667 1'b1;
-	SW2 = #1666 1'b0;
-	SW2 = #1667 1'b1;
-	SW2 = #1666 1'b0;
-	SW2 = #1667 1'b1;
-	SW2 = #956 1'b0;
-	SW2 = #5527 1'b1;
-	SW2 = #3900 1'b0;
-	SW2 = #6100 1'b1;
-	SW2 = #3900 1'b0;
-	SW2 = #573 1'b1;
-	SW2 = #955 1'b0;
-	SW2 = #5800 1'b1;
-	SW2 = #4200 1'b0;
-	SW2 = #5800 1'b1;
-	SW2 = #3245 1'b0;
-	SW2 = #1928 1'b1;
-	# 2666;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4000 1'b1;
-		# 2666;
-	end
-	SW2 = 1'b0;
-	SW2 = #13842 1'b1;
-	SW2 = #8200 1'b0;
-	SW2 = #1606 1'b1;
-	SW2 = #7000 1'b0;
-	SW2 = #11741 1'b1;
-	SW2 = #2400 1'b0;
-	SW2 = #2600 1'b1;
-	SW2 = #2400 1'b0;
-	SW2 = #4356 1'b1;
-	# 1133;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2200 1'b1;
-		# 1133;
-	end
-	SW2 = 1'b0;
-	SW2 = #2320 1'b1;
-	SW2 = #2800 1'b0;
-	SW2 = #2200 1'b1;
-	SW2 = #2800 1'b0;
-	SW2 = #622 1'b1;
-	# 1133;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #2200 1'b1;
-		# 1133;
-	end
-	SW2 = 1'b0;
-	SW2 = #2589 1'b1;
-	# 1366;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #1967 1'b1;
-		# 1366;
-	end
-	SW2 = 1'b0;
-	SW2 = #968 1'b1;
-	SW2 = #1469 1'b0;
-	SW2 = #2350 1'b1;
-	SW2 = #2650 1'b0;
-	SW2 = #2350 1'b1;
-	SW2 = #1462 1'b0;
-	SW2 = #2000 1'b1;
-	SW2 = #3000 1'b0;
-	SW2 = #2000 1'b1;
-	SW2 = #2719 1'b0;
-	SW2 = #2925 1'b1;
-	SW2 = #3200 1'b0;
-	SW2 = #4271 1'b1;
-	# 2466;
-	repeat(2)
-	begin
-		SW2 = 1'b0;
-		SW2 = #4200 1'b1;
-		# 2466;
-	end
-	SW2 = 1'b0;
-	SW2 = #7644 1'b1;
-	SW2 = #4000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #20000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #20000 1'b1;
+	SW2 = #25000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #35000 1'b0;
+	SW2 = #20000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #20000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #20000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #20000 1'b1;
+	SW2 = #40000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #15000 1'b1;
+	SW2 = #20000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #15000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #20000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #30000 1'b0;
+	SW2 = #10000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #25000 1'b1;
+	SW2 = #10000 1'b0;
+	SW2 = #5000 1'b1;
+	SW2 = #5000 1'b0;
+	SW2 = #10000 1'b1;
 end 
 
 // SW3
 initial
 begin
 	SW3 = 1'b1;
-	SW3 = #1800 1'b0;
-	SW3 = #6100 1'b1;
-	SW3 = #3900 1'b0;
-	SW3 = #6100 1'b1;
-	SW3 = #2100 1'b0;
-	SW3 = #295 1'b1;
-	# 2333;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4333 1'b1;
-		# 2333;
-	end
-	SW3 = 1'b0;
-	SW3 = #4040 1'b1;
-	SW3 = #2989 1'b0;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #25000 1'b1;
+	SW3 = #10000 1'b0;
 	SW3 = #5000 1'b1;
 	SW3 = #5000 1'b0;
 	SW3 = #5000 1'b1;
-	SW3 = #6777 1'b0;
-	SW3 = #12800 1'b1;
-	SW3 = #3171 1'b0;
-	SW3 = #2167 1'b1;
-	SW3 = #1166 1'b0;
-	SW3 = #2167 1'b1;
-	SW3 = #1166 1'b0;
-	SW3 = #2167 1'b1;
-	SW3 = #430 1'b0;
-	SW3 = #4758 1'b1;
-	SW3 = #6000 1'b0;
-	SW3 = #9242 1'b1;
-	# 1181;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #1667 1'b1;
-		# 1666;
-	end
-	SW3 = 1'b0;
-	SW3 = #1667 1'b1;
-	SW3 = #2498 1'b0;
-	SW3 = #2250 1'b1;
-	SW3 = #2750 1'b0;
-	SW3 = #2250 1'b1;
-	SW3 = #738 1'b0;
-	SW3 = #3148 1'b1;
-	# 2599;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4067 1'b1;
-		# 2599;
-	end
-	SW3 = 1'b0;
-	SW3 = #976 1'b1;
-	# 3333;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #3333 1'b1;
-		# 3333;
-	end
-	SW3 = 1'b0;
-	SW3 = #3280 1'b1;
-	SW3 = #8042 1'b0;
-	SW3 = #10600 1'b1;
-	SW3 = #1358 1'b0;
-	SW3 = #3810 1'b1;
-	SW3 = #3700 1'b0;
-	SW3 = #2490 1'b1;
-	SW3 = #454 1'b0;
-	SW3 = #6700 1'b1;
-	SW3 = #5963 1'b0;
-	SW3 = #4500 1'b1;
-	SW3 = #5500 1'b0;
-	SW3 = #4500 1'b1;
-	SW3 = #2383 1'b0;
-	SW3 = #1791 1'b1;
-	SW3 = #4100 1'b0;
-	SW3 = #7631 1'b1;
-	SW3 = #5600 1'b0;
-	SW3 = #4400 1'b1;
-	SW3 = #5600 1'b0;
-	SW3 = #2173 1'b1;
-	# 1333;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #2000 1'b1;
-		# 1333;
-	end
-	SW3 = 1'b0;
-	SW3 = #1067 1'b1;
-	SW3 = #1950 1'b0;
-	SW3 = #3050 1'b1;
-	SW3 = #1950 1'b0;
-	SW3 = #2689 1'b1;
-	SW3 = #3113 1'b0;
-	SW3 = #10600 1'b1;
-	SW3 = #7044 1'b0;
-	SW3 = #6300 1'b1;
-	SW3 = #3700 1'b0;
-	SW3 = #6300 1'b1;
-	SW3 = #2943 1'b0;
-	SW3 = #172 1'b1;
-	SW3 = #2350 1'b0;
-	SW3 = #2650 1'b1;
-	SW3 = #2350 1'b0;
-	SW3 = #4098 1'b1;
-	# 2466;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4200 1'b1;
-		# 2466;
-	end
-	SW3 = 1'b0;
-	SW3 = #2582 1'b1;
-	SW3 = #1370 1'b0;
-	SW3 = #6900 1'b1;
-	SW3 = #2410 1'b0;
-	SW3 = #1934 1'b1;
-	SW3 = #1399 1'b0;
-	SW3 = #1934 1'b1;
-	SW3 = #1399 1'b0;
-	SW3 = #1934 1'b1;
-	SW3 = #720 1'b0;
-	SW3 = #2823 1'b1;
-	SW3 = #5500 1'b0;
-	SW3 = #1677 1'b1;
-	SW3 = #24 1'b0;
-	SW3 = #6400 1'b1;
-	SW3 = #3600 1'b0;
-	SW3 = #6400 1'b1;
-	SW3 = #4059 1'b0;
-	SW3 = #5100 1'b1;
-	SW3 = #4900 1'b0;
-	SW3 = #5100 1'b1;
-	SW3 = #4417 1'b0;
-	SW3 = #1084 1'b1;
-	# 3133;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #3533 1'b1;
-		# 3133;
-	end
-	SW3 = 1'b0;
-	SW3 = #2451 1'b1;
-	SW3 = #3842 1'b0;
-	SW3 = #9000 1'b1;
-	SW3 = #7158 1'b0;
-	SW3 = #2708 1'b1;
-	SW3 = #4100 1'b0;
-	SW3 = #3192 1'b1;
-	# 1174;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #3933 1'b1;
-		# 2733;
-	end
-	SW3 = 1'b0;
-	SW3 = #3933 1'b1;
-	SW3 = #1561 1'b0;
-	SW3 = #1255 1'b1;
-	# 1299;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #2034 1'b1;
-		# 1299;
-	end
-	SW3 = 1'b0;
-	SW3 = #780 1'b1;
-	SW3 = #700 1'b0;
-	SW3 = #6800 1'b1;
-	SW3 = #2500 1'b0;
-	SW3 = #1217 1'b1;
-	# 2666;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4000 1'b1;
-		# 2666;
-	end
-	SW3 = 1'b0;
-	SW3 = #2785 1'b1;
-	SW3 = #1646 1'b0;
-	SW3 = #2950 1'b1;
-	SW3 = #2050 1'b0;
-	SW3 = #2950 1'b1;
-	SW3 = #404 1'b0;
-	SW3 = #224 1'b1;
-	SW3 = #5800 1'b0;
-	SW3 = #4200 1'b1;
-	SW3 = #5800 1'b0;
-	SW3 = #3976 1'b1;
-	SW3 = #1039 1'b0;
-	SW3 = #6500 1'b1;
-	SW3 = #3500 1'b0;
-	SW3 = #6500 1'b1;
-	SW3 = #2461 1'b0;
-	SW3 = #2394 1'b1;
-	# 2666;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4000 1'b1;
-		# 2666;
-	end
-	SW3 = 1'b0;
-	SW3 = #1608 1'b1;
-	SW3 = #1403 1'b0;
-	SW3 = #2250 1'b1;
-	SW3 = #2750 1'b0;
-	SW3 = #2250 1'b1;
-	SW3 = #9795 1'b0;
-	SW3 = #10600 1'b1;
-	SW3 = #952 1'b0;
-	SW3 = #5534 1'b1;
-	SW3 = #3000 1'b0;
-	SW3 = #7000 1'b1;
-	SW3 = #3000 1'b0;
-	SW3 = #1466 1'b1;
-	SW3 = #1816 1'b0;
-	SW3 = #4400 1'b1;
-	SW3 = #3784 1'b0;
-	SW3 = #766 1'b1;
-	SW3 = #1550 1'b0;
-	SW3 = #3450 1'b1;
-	SW3 = #1550 1'b0;
-	SW3 = #4936 1'b1;
-	SW3 = #3200 1'b0;
-	SW3 = #5059 1'b1;
-	SW3 = #5600 1'b0;
-	SW3 = #4400 1'b1;
-	SW3 = #5600 1'b0;
-	SW3 = #8329 1'b1;
-	SW3 = #3200 1'b0;
-	SW3 = #6800 1'b1;
-	SW3 = #3200 1'b0;
-	SW3 = #2360 1'b1;
-	SW3 = #1845 1'b0;
-	SW3 = #2750 1'b1;
-	SW3 = #2250 1'b0;
-	SW3 = #2750 1'b1;
-	SW3 = #405 1'b0;
-	SW3 = #584 1'b1;
-	SW3 = #2650 1'b0;
-	SW3 = #2350 1'b1;
-	SW3 = #2650 1'b0;
-	SW3 = #5185 1'b1;
-	SW3 = #4700 1'b0;
-	SW3 = #1881 1'b1;
-	SW3 = #744 1'b0;
-	SW3 = #9200 1'b1;
-	SW3 = #11939 1'b0;
-	SW3 = #6500 1'b1;
-	SW3 = #4584 1'b0;
-	SW3 = #5500 1'b1;
-	SW3 = #2344 1'b0;
-	SW3 = #6300 1'b1;
-	SW3 = #3700 1'b0;
-	SW3 = #6300 1'b1;
-	SW3 = #2889 1'b0;
-	SW3 = #1299 1'b1;
-	# 1566;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #1767 1'b1;
-		# 1566;
-	end
-	SW3 = 1'b0;
-	SW3 = #669 1'b1;
-	SW3 = #3500 1'b0;
-	SW3 = #6348 1'b1;
-	SW3 = #4000 1'b0;
-	SW3 = #6148 1'b1;
-	SW3 = #3700 1'b0;
-	SW3 = #8596 1'b1;
-	SW3 = #11200 1'b0;
-	SW3 = #6308 1'b1;
-	SW3 = #1725 1'b0;
-	SW3 = #6600 1'b1;
-	SW3 = #1675 1'b0;
-	SW3 = #1392 1'b1;
-	SW3 = #2650 1'b0;
-	SW3 = #2350 1'b1;
-	SW3 = #2650 1'b0;
-	SW3 = #1804 1'b1;
-	# 1366;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #1967 1'b1;
-		# 1366;
-	end
-	SW3 = 1'b0;
-	SW3 = #1122 1'b1;
-	SW3 = #4635 1'b0;
-	SW3 = #11000 1'b1;
-	SW3 = #4365 1'b0;
-	SW3 = #1586 1'b1;
-	SW3 = #3600 1'b0;
-	SW3 = #6400 1'b1;
-	SW3 = #3600 1'b0;
-	SW3 = #5975 1'b1;
-	# 2466;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #4200 1'b1;
-		# 2466;
-	end
-	SW3 = 1'b0;
-	SW3 = #3817 1'b1;
-	SW3 = #2050 1'b0;
-	SW3 = #2950 1'b1;
-	SW3 = #2050 1'b0;
-	SW3 = #2174 1'b1;
-	# 2118;
-	repeat(2)
-	begin
-		SW3 = 1'b0;
-		SW3 = #3000 1'b1;
-		# 3666;
-	end
-	SW3 = 1'b0;
-	SW3 = #3000 1'b1;
-	SW3 = #3983 1'b0;
-	SW3 = #2350 1'b1;
-	SW3 = #2650 1'b0;
-	SW3 = #2350 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #35000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #30000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #25000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #20000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #25000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #20000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #30000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #10000 1'b1;
+	SW3 = #5000 1'b0;
+	SW3 = #15000 1'b1;
+	SW3 = #15000 1'b0;
+	SW3 = #5000 1'b1;
+	SW3 = #10000 1'b0;
 end 
 
 Lab_FPGA_vlg_sample_tst tb_sample (

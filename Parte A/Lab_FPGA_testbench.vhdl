@@ -2,9 +2,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Lab_FPGA_testbench is 
-end LAB_FPGA_testbench;
+end Lab_FPGA_testbench;
 	
 architecture behavior of Lab_FPGA_testbench is 
+
+--Component declaration for the UUT
 
 component Lab_FPGA 
 	Port ( SW1 : in STD_LOGIC;
@@ -22,6 +24,7 @@ signal SW3: STD_LOGIC := '0';
 signal LED: STD_LOGIC; 
 
 begin
+--Instantiatethe UUT (Unit Under Test)
 uut: Lab_FPGA port map (
 SW1 => SW1,
 SW2 => SW2,
@@ -29,26 +32,59 @@ SW3 => SW3,
 LED => LED
 );
 
---Stimulus process
+-- Stimulus Process
 stim_proc: process
 begin
-	wait for 20 ns; 
-	SW1 <= '0';
-	SW2 <= '0';
-	SW3 <= '0';
-	wait for 20 ns; 
-	SW1 <= '0';
-	SW2 <= '0';
-	SW3 <= '1';
-	wait for 20 ns; 
-	SW1 <= '0';
-	SW2 <= '1';
-	SW3 <= '0';
-	wait for 20 ns; 
-	SW1 <= '0';
-	SW2 <= '1';
-	SW3 <= '1';
-	end process;
+    -- Combinación 000
+    SW1 <= '0';
+    SW2 <= '0';
+    SW3 <= '0';
+    wait for 20 ns; 
+
+    -- Combinación 001
+    SW1 <= '0';
+    SW2 <= '0';
+    SW3 <= '1';
+    wait for 20 ns; 
+
+    -- Combinación 010
+    SW1 <= '0';
+    SW2 <= '1';
+    SW3 <= '0';
+    wait for 20 ns; 
+
+    -- Combinación 011
+    SW1 <= '0';
+    SW2 <= '1';
+    SW3 <= '1';
+    wait for 20 ns; 
+
+    -- Combinación 100
+    SW1 <= '1';
+    SW2 <= '0';
+    SW3 <= '0';
+    wait for 20 ns; 
+
+    -- Combinación 101
+    SW1 <= '1';
+    SW2 <= '0';
+    SW3 <= '1';
+    wait for 20 ns; 
+
+    -- Combinación 110
+    SW1 <= '1';
+    SW2 <= '1';
+    SW3 <= '0';
+    wait for 20 ns; 
+
+    -- Combinación 111
+    SW1 <= '1';
+    SW2 <= '1';
+    SW3 <= '1';
+    wait for 20 ns; 
+	 
+end process;
+
 end;
-end;
+
 

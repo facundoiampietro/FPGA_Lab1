@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte A\simulation\modelsim
+Elab_fpga
+Z1 w1730896285
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Facu\Documents\FPGA_Lab1\Parte A\simulation\modelsim
+Z5 8C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA.vhd
+Z6 FC:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA.vhd
+l0
+L4
+VV0`3a7d@VIMg60JWEahcD1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730900350.386000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA.vhd|
+Z10 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 4>M3EQ=NY95V@1AbEgSTo3
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 8 lab_fpga 0 22 V0`3a7d@VIMg60JWEahcD1
+l13
+L11
+VFm]CLVobn]M`TkC@RiNEa3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 mCW_SDQ<kR9LDCTmzWfdj1
+!i10b 1
+Elab_fpga_testbench
+Z13 w1730897441
+R2
+R3
+R4
+Z14 8C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA_testbench.vhdl
+Z15 FC:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA_testbench.vhdl
+l0
+L4
+VjlhB9Km^8z]VgN7;RgUQ41
+!s100 Qd_YOK=?`MSX4Cl^_8`:A0
+R7
+31
+!i10b 1
+Z16 !s108 1730900350.448000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA_testbench.vhdl|
+Z18 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte A/Lab_FPGA_testbench.vhdl|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 18 lab_fpga_testbench 0 22 jlhB9Km^8z]VgN7;RgUQ41
+l26
+L7
+V_9;PW:]WgmV66LBn>^eJS0
+!s100 g8:lMfHzJc8o=Q<W:XGF`2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
