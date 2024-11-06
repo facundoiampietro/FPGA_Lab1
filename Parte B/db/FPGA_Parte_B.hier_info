@@ -1,0 +1,43 @@
+|restador_completo
+ext_A => D_FF:FF_A.D
+ext_B => D_FF:FF_B.D
+ext_Borrow_in => D_FF:FF_Borrow_in.D
+clk => D_FF:FF_A.CLOCK
+clk => D_FF:FF_B.CLOCK
+clk => D_FF:FF_Borrow_in.CLOCK
+clk => D_FF:FF_Diff.CLOCK
+clk => D_FF:FF_Borrow_out.CLOCK
+ext_D <= D_FF:FF_Diff.Q
+ext_Borrow_out <= D_FF:FF_Borrow_out.Q
+
+
+|restador_completo|D_FF:FF_A
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|restador_completo|D_FF:FF_B
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|restador_completo|D_FF:FF_Borrow_in
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|restador_completo|D_FF:FF_Diff
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|restador_completo|D_FF:FF_Borrow_out
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
