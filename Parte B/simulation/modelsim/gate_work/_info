@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\modelsim
+Erestador_completo
+Z1 w1730948855
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 Giz7C_dB_=WZS^1=3P8073
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
+Z10 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\modelsim
+Z11 8FPGA_Parte_B_7_1200mv_85c_slow.vho
+Z12 FFPGA_Parte_B_7_1200mv_85c_slow.vho
+l0
+L36
+VeFULZ[AU8<YSzdW534cDj1
+Z13 OV;C;10.1d;51
+31
+Z14 !s108 1730948869.281000
+Z15 !s90 -reportprogress|300|-93|-work|work|FPGA_Parte_B_7_1200mv_85c_slow.vho|
+Z16 !s107 FPGA_Parte_B_7_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+!s100 P@]7;[U;URl6TgDjQ5E9G0
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 17 restador_completo 0 22 eFULZ[AU8<YSzdW534cDj1
+l91
+L56
+VDXC^7GmShanMToQO9j<[T3
+R13
+31
+R14
+R15
+R16
+R17
+R18
+!s100 87WhbIf=00`;6_W?DiH[X3
+!i10b 1
+Erestador_completo_testbench
+Z19 w1730948043
+R7
+R8
+R10
+Z20 8C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd
+Z21 FC:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd
+l0
+L4
+VlJGN<Mj?jFG9OhDQElH8=1
+!s100 V3LNYaln44MY1JBIX1FbY1
+R13
+31
+!i10b 1
+Z22 !s108 1730948869.359000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd|
+Z24 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd|
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 27 restador_completo_testbench 0 22 lJGN<Mj?jFG9OhDQElH8=1
+l27
+L7
+V4:42zTLgZ:JEoG<Ngze6h0
+!s100 YiXMiTP8=]n1?45ZD=7d;1
+R13
+31
+!i10b 1
+R22
+R23
+R24
+R17
+R18

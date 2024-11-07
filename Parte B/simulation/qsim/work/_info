@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\qsim
+vrestador_completo
+Z1 IEHmLOPPjMcMmnRa[HO@;I3
+Z2 VaPBJg9R``zmn=g4_=lI@Z3
+Z3 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\qsim
+Z4 w1730946669
+Z5 8FPGA_Parte_B.vo
+Z6 FFPGA_Parte_B.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|FPGA_Parte_B.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 gUYN;eT`nn7kg8mc_jGhb0
+!s85 0
+Z11 !s108 1730946670.444000
+Z12 !s107 FPGA_Parte_B.vo|
+!s101 -O0
+vrestador_completo_vlg_check_tst
+!i10b 1
+Z13 !s100 VTST[Z6HKQT1g];zYMmSj0
+Z14 IT`J8R@UHh_2f^WkhzQnHG0
+Z15 V5kQ<AU`XYMdoBOM1H9dI81
+R3
+Z16 w1730946668
+Z17 8FPGA_Parte_B.vt
+Z18 FFPGA_Parte_B.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1730946670.491000
+Z20 !s107 FPGA_Parte_B.vt|
+Z21 !s90 -work|work|FPGA_Parte_B.vt|
+!s101 -O0
+R9
+vrestador_completo_vlg_sample_tst
+!i10b 1
+Z22 !s100 b@z1XZ@P<iE>CgJA=lzSb3
+Z23 IA`2V@J_bm9KDIS5H7o:SB2
+Z24 VGcdOIGNle`SC@zl@nOF=D1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vrestador_completo_vlg_vec_tst
+!i10b 1
+Z25 !s100 [m8GNGVOg[ZR^>efV9mHL3
+Z26 IPJhP@moPJcGz`WM9@>kQ]0
+Z27 VkO@a:Q>WPWEb7P=L`7T2T0
+R3
+R16
+R17
+R18
+Z28 L0 185
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

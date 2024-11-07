@@ -16,7 +16,7 @@ end component;
 
 signal a, b, bin, bout, d: std_logic; --señales para latchear y con las que hago la función lógica
 	begin
-		d <=  (not(a) and not(b) and bin) or (a and not(b) and not(bin)) or (a and b and bin) or (not(a) and b and not(bin)); --salida diferencia
+		d <= a xor b xor bin; --salida diferencia
 		bout <=(not(a) and b) or (bin and(not(a) or b)); --bout salida borrow out
 		
 -- instancio ff. Recordar D=entrada FF, clock, Q=estado

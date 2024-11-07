@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\modelsim
+Ed_ff
+Z1 w1730923483
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Facu\Documents\FPGA_Lab1\Parte B\simulation\modelsim
+Z7 8C:/Users/Facu/Documents/FPGA_Lab1/Parte B/D_FF.vhd
+Z8 FC:/Users/Facu/Documents/FPGA_Lab1/Parte B/D_FF.vhd
+l0
+L6
+V4=IKP?^Hh[c2hHNUA1G311
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1730948415.314000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte B/D_FF.vhd|
+Z12 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte B/D_FF.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 dc^eczC4jT7C=<>_mH83<1
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 4 d_ff 0 22 4=IKP?^Hh[c2hHNUA1G311
+l12
+L11
+V>WLH9Vahz3IAD@l3UD`Yo2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 6oSK`Y4Z?]U2P`^lJ_QE23
+!i10b 1
+Erestador_completo
+Z15 w1730946279
+R4
+R5
+R6
+Z16 8C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo.vhd
+Z17 FC:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo.vhd
+l0
+L4
+V;^U06P@b6hWL_i<UG:c[31
+R9
+31
+Z18 !s108 1730948415.392000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo.vhd|
+Z20 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo.vhd|
+R13
+R14
+!s100 4i0KB>59C=OSW@8`K]XH>1
+!i10b 1
+Abehavioral
+R4
+R5
+DEx4 work 17 restador_completo 0 22 ;^U06P@b6hWL_i<UG:c[31
+l18
+L10
+VmRbkZCD295Pk95dH=QNNj3
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 ffVgYGUERi>LXE5h>X:QA1
+!i10b 1
+Erestador_completo_testbench
+Z21 w1730948043
+R4
+R5
+R6
+Z22 8C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd
+Z23 FC:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd
+l0
+L4
+VlJGN<Mj?jFG9OhDQElH8=1
+!s100 V3LNYaln44MY1JBIX1FbY1
+R9
+31
+!i10b 1
+Z24 !s108 1730948415.470000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd|
+Z26 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte B/restador_completo_testbench.vhd|
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 27 restador_completo_testbench 0 22 lJGN<Mj?jFG9OhDQElH8=1
+l27
+L7
+V4:42zTLgZ:JEoG<Ngze6h0
+!s100 YiXMiTP8=]n1?45ZD=7d;1
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14

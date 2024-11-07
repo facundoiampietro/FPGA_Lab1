@@ -97,7 +97,12 @@ TRANSITION_LIST("clk")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 50;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+		}
 	}
 }
 
@@ -106,7 +111,12 @@ TRANSITION_LIST("ext_A")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 10;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
+		}
 	}
 }
 
@@ -115,7 +125,12 @@ TRANSITION_LIST("ext_B")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 20;
+			LEVEL 0 FOR 25.0;
+			LEVEL 1 FOR 25.0;
+		}
 	}
 }
 
@@ -124,7 +139,12 @@ TRANSITION_LIST("ext_Borrow_in")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 40;
+			LEVEL 0 FOR 12.5;
+			LEVEL 1 FOR 12.5;
+		}
 	}
 }
 
