@@ -1,0 +1,23 @@
+|Parte_D
+reset => reg_fstate.state2.OUTPUTSELECT
+reset => reg_fstate.state3.OUTPUTSELECT
+reset => reg_fstate.state5.OUTPUTSELECT
+reset => reg_fstate.state4.OUTPUTSELECT
+reset => reg_fstate.state1.OUTPUTSELECT
+reset => reg_fstate.state6.OUTPUTSELECT
+reset => reg_fstate.state7.OUTPUTSELECT
+reset => Z4.OUTPUTSELECT
+reset => Z3.OUTPUTSELECT
+reset => Z2.OUTPUTSELECT
+reset => Z1.OUTPUTSELECT
+clock => fstate~1.DATAIN
+x => reg_fstate.DATAB
+x => reg_fstate.DATAB
+x => reg_fstate.DATAB
+x => reg_fstate.DATAB
+Z4 <= Z4.DB_MAX_OUTPUT_PORT_TYPE
+Z3 <= Z3.DB_MAX_OUTPUT_PORT_TYPE
+Z2 <= Z2.DB_MAX_OUTPUT_PORT_TYPE
+Z1 <= Z1.DB_MAX_OUTPUT_PORT_TYPE
+
+
