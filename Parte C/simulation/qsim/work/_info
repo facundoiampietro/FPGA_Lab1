@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte C\simulation\qsim
+vrestador_4_bits
+Z1 IkHX7c:jkaZbafDIm?WAmA3
+Z2 V`fTO@;PUhV^9fNXmmoj8K2
+Z3 dC:\Users\Facu\Documents\FPGA_Lab1\Parte C\simulation\qsim
+Z4 w1730965455
+Z5 8Parte_C.vo
+Z6 FParte_C.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Parte_C.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 gWfzK_EWG1kKTD3M^ab<m2
+!s85 0
+Z11 !s108 1730965456.314000
+Z12 !s107 Parte_C.vo|
+!s101 -O0
+vrestador_4_bits_vlg_check_tst
+!i10b 1
+Z13 !s100 @IOdd4^Un<J15ET?E;<671
+Z14 I]2h@fTH<4ngE7A[zb`jXn3
+Z15 VOe;Bi98kSLg<EdXD9P6]n3
+R3
+Z16 w1730965454
+Z17 8Parte_C.vt
+Z18 FParte_C.vt
+L0 75
+R7
+r1
+!s85 0
+31
+Z19 !s108 1730965456.367000
+Z20 !s107 Parte_C.vt|
+Z21 !s90 -work|work|Parte_C.vt|
+!s101 -O0
+R9
+vrestador_4_bits_vlg_sample_tst
+!i10b 1
+Z22 !s100 Z432EVKLHiVk=;YCZ`:Rn1
+Z23 I2>2V73YI;=G?Hm@BjJB1S2
+Z24 Vb4H];1cJFR72z325C_31>1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vrestador_4_bits_vlg_vec_tst
+!i10b 1
+Z25 !s100 MiB7d5G4[=;B8Pl`]Sk]Z3
+Z26 IG4`kh=l`a=z6K@?1GYCEE3
+Z27 V9ePg[M]E48?Y`Hbn=DVk81
+R3
+R16
+R17
+R18
+Z28 L0 305
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

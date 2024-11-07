@@ -52,4 +52,29 @@ set_global_assignment -name VHDL_FILE restador_completo.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE "../Parte B/D_FF.vhd"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_J10 -to A2
+set_location_assignment PIN_J2 -to CLK
+set_location_assignment PIN_H8 -to D2
+set_location_assignment PIN_G10 -to A3
+set_location_assignment PIN_G9 -to A1
+set_location_assignment PIN_F10 -to B2
+set_location_assignment PIN_F8 -to D0
+set_location_assignment PIN_E10 -to B3
+set_location_assignment PIN_E7 -to D3
+set_location_assignment PIN_D8 -to D1
+set_location_assignment PIN_D7 -to Borrow_out
+set_location_assignment PIN_D6 -to B1
+set_location_assignment PIN_C8 -to A0
+set_location_assignment PIN_C7 -to Zero
+set_location_assignment PIN_B8 -to Borrow_in
+set_location_assignment PIN_A8 -to B0
+set_global_assignment -name VECTOR_WAVEFORM_FILE restador_4_bits.vwf
+set_global_assignment -name SIMULATION_MODE TIMING
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Facu/Documents/FPGA_Lab1/Parte C/restador_4_bits.vwf"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
