@@ -1,0 +1,64 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Parte_C_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Parte_C.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity restador_4_bits
+# -- Compiling architecture structure of restador_4_bits
+# 
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte C/restador_4_bits_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity restador_4_bits_testbench
+# -- Compiling architecture behavior of restador_4_bits_testbench
+# ** Warning: [4] C:/Users/Facu/Documents/FPGA_Lab1/Parte C/restador_4_bits_testbench.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  restador_4_bits_testbench
+# vsim -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -t 1ps restador_4_bits_testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.restador_4_bits_testbench(behavior)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.restador_4_bits(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_clkctrl(vital_clkctrl)
+# Loading cycloneiii.cycloneiii_ena_reg(behave)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.

@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "11/07/2024 04:44:14"
+// Generated on "11/07/2024 12:27:41"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    restador_4_bits
 // 
@@ -350,11 +350,25 @@ restador_4_bits i1 (
 initial
 begin
 	A0 = 1'b1;
+	# 10000;
+	repeat(49)
+	begin
+		A0 = 1'b0;
+		A0 = #10000 1'b1;
+		# 10000;
+	end
+	A0 = 1'b0;
 end 
 
 // A1
 initial
 begin
+	repeat(12)
+	begin
+		A1 = 1'b0;
+		A1 = #40000 1'b1;
+		# 40000;
+	end
 	A1 = 1'b0;
 end 
 
@@ -380,6 +394,14 @@ end
 initial
 begin
 	B1 = 1'b1;
+	# 10000;
+	repeat(49)
+	begin
+		B1 = 1'b0;
+		B1 = #10000 1'b1;
+		# 10000;
+	end
+	B1 = 1'b0;
 end 
 
 // B2
@@ -389,9 +411,11 @@ begin
 end 
 
 // B3
-initial
+always
 begin
 	B3 = 1'b0;
+	B3 = #20000 1'b1;
+	#20000;
 end 
 
 // Borrow_in

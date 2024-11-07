@@ -47,12 +47,6 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name BDF_FILE restador_4_bits.bdf
-set_global_assignment -name VHDL_FILE restador_completo.vhd
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VHDL_FILE "../Parte B/D_FF.vhd"
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_J10 -to A2
 set_location_assignment PIN_J2 -to CLK
@@ -70,11 +64,28 @@ set_location_assignment PIN_C8 -to A0
 set_location_assignment PIN_C7 -to Zero
 set_location_assignment PIN_B8 -to Borrow_in
 set_location_assignment PIN_A8 -to B0
-set_global_assignment -name VECTOR_WAVEFORM_FILE restador_4_bits.vwf
-set_global_assignment -name SIMULATION_MODE TIMING
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Facu/Documents/FPGA_Lab1/Parte C/restador_4_bits.vwf"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/Facu/Documents/FPGA_Lab1/Parte C" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH restador_4_bits_testbench -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME restador_4_bits_testbench -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME uut -section_id restador_4_bits_testbench
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME restador_4_bits_testbench -section_id restador_4_bits_testbench
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE restador_4_bits.vhd
+set_global_assignment -name VHDL_FILE restador_completo.vhd
+set_global_assignment -name VHDL_FILE "../Parte B/D_FF.vhd"
+set_global_assignment -name VECTOR_WAVEFORM_FILE restador_4_bits.vwf
+set_global_assignment -name VHDL_FILE restador_4_bits_testbench.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Facu/Documents/FPGA_Lab1/Parte C/restador_4_bits.vwf"
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_FILE restador_4_bits_testbench.vhd -section_id restador_4_bits_testbench
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

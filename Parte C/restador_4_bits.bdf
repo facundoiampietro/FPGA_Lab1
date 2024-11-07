@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 464 160 632 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Borrow_in" (rect 5 0 53 12)(font "Arial" ))
+	(text "Borrow_in" (rect 5 0 52 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,12 +34,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "GND" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 408 176 464 192))
 )
 (pin
 	(input)
 	(rect 16 0 184 16)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A0" (rect 5 0 18 12)(font "Arial" ))
+	(text "A0" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -50,12 +51,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 16 16 32))
 )
 (pin
 	(input)
 	(rect 8 104 176 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B0" (rect 5 0 18 12)(font "Arial" ))
+	(text "B0" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -66,12 +68,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -48 120 8 136))
 )
 (pin
 	(input)
 	(rect 16 216 184 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A1" (rect 5 0 18 12)(font "Arial" ))
+	(text "A1" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -82,12 +85,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 232 16 248))
 )
 (pin
 	(input)
 	(rect 16 320 184 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B1" (rect 5 0 18 12)(font "Arial" ))
+	(text "B1" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -98,12 +102,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 336 16 352))
 )
 (pin
 	(input)
 	(rect 16 424 184 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A2" (rect 5 0 18 12)(font "Arial" ))
+	(text "A2" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -114,12 +119,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 440 16 456))
 )
 (pin
 	(input)
 	(rect 16 528 184 544)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B2" (rect 5 0 18 12)(font "Arial" ))
+	(text "B2" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -130,12 +136,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 544 16 560))
 )
 (pin
 	(input)
 	(rect 24 632 192 648)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A3" (rect 5 0 18 12)(font "Arial" ))
+	(text "A3" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -146,12 +153,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -32 648 24 664))
 )
 (pin
 	(input)
 	(rect 24 736 192 752)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B3" (rect 5 0 18 12)(font "Arial" ))
+	(text "B3" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -162,12 +170,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -32 752 24 768))
 )
 (pin
 	(input)
 	(rect 24 824 192 840)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -178,6 +187,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -24 840 24 856))
 )
 (pin
 	(output)
@@ -194,6 +204,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1512 56 1560 72))
 )
 (pin
 	(output)
@@ -210,6 +221,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1512 280 1568 296))
 )
 (pin
 	(output)
@@ -226,6 +238,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1520 472 1576 488))
 )
 (pin
 	(output)
@@ -242,6 +255,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1520 632 1568 648))
 )
 (pin
 	(output)
@@ -258,6 +272,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1528 768 1584 784))
 )
 (pin
 	(output)
@@ -274,6 +289,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1680 928 1736 944))
 )
 (symbol
 	(rect 720 16 912 128)
@@ -1103,10 +1119,6 @@ applicable agreement for further details.
 	(pt 232 24)
 )
 (connector
-	(pt 232 16)
-	(pt 232 24)
-)
-(connector
 	(pt 280 128)
 	(pt 232 128)
 )
@@ -1298,7 +1310,6 @@ applicable agreement for further details.
 	(pt 1472 920)
 	(pt 1504 920)
 )
-(junction (pt 232 24))
 (junction (pt 232 128))
 (junction (pt 232 240))
 (junction (pt 232 344))
