@@ -7,8 +7,6 @@
 # Top level modules:
 # 	Parte_D
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module Parte_D_vlg_sample_tst
-# -- Compiling module Parte_D_vlg_check_tst
 # -- Compiling module Parte_D_vlg_vec_tst
 # 
 # Top level modules:
@@ -23,15 +21,10 @@
 # Loading cycloneiii_ver.cycloneiii_io_obuf
 # Loading cycloneiii_ver.cycloneiii_lcell_comb
 # Loading altera_ver.dffeas
-# Loading work.Parte_D_vlg_sample_tst
-# Loading work.Parte_D_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
 # Loading instances from Parte_D_v.sdo
 # Loading altera_ver.PRIM_GDFF_LOW
 # Loading timing data from Parte_D_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /Parte_D_vlg_vec_tst File: Parte_D.vt
-# Simulation passed !
-# ** Note: $finish    : Parte_D.vt(233)
-#    Time: 1 us  Iteration: 0  Instance: /Parte_D_vlg_vec_tst/tb_out
+# ** Note: $finish    : Parte_D.vt(54)
+#    Time: 1 us  Iteration: 0  Instance: /Parte_D_vlg_vec_tst

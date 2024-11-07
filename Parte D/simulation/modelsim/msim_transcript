@@ -1,5 +1,5 @@
 # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do Parte_D_run_msim_rtl_vhdl.do 
+# do Template_Parte_D_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,11 +10,11 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Parte_D.vhd}
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/Template_Parte_D.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity Parte_D
-# -- Compiling architecture BEHAVIOR of Parte_D
+# -- Compiling entity Template_Parte_D
+# -- Compiling architecture rtl of Template_Parte_D
 # 

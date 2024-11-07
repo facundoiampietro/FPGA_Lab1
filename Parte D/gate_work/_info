@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte D
+Eparte_d
+Z1 w1731015358
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 Giz7C_dB_=WZS^1=3P8073
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
+Z10 dC:\Users\Facu\Documents\FPGA_Lab1\Parte D
+Z11 8Parte_D_7_1200mv_85c_slow.vho
+Z12 FParte_D_7_1200mv_85c_slow.vho
+l0
+L36
+VdEg[3;9CO2oo?<3TzSCHh3
+Z13 OV;C;10.1d;51
+31
+Z14 !s108 1731015416.455000
+Z15 !s90 -reportprogress|300|-93|-work|work|Parte_D_7_1200mv_85c_slow.vho|
+Z16 !s107 Parte_D_7_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+!s100 3BWR`>7Im^m6PSTgKM_;00
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 7 parte_d 0 22 dEg[3;9CO2oo?<3TzSCHh3
+l99
+L58
+VMRiPmeZeNVVT<^g@PCDnY0
+R13
+31
+R14
+R15
+R16
+R17
+R18
+!s100 iz0PkoRkdZU?O`iMRDe3@2
+!i10b 1
+Etb_parte_d
+Z19 w1731014964
+R7
+R8
+R10
+Z20 8C:/Users/Facu/Documents/FPGA_Lab1/Parte D/tb_Parte_D.vhd
+Z21 FC:/Users/Facu/Documents/FPGA_Lab1/Parte D/tb_Parte_D.vhd
+l0
+L4
+V>?P832Pf<nWLm7TdYQkDz1
+!s100 _ZnMWQ7eBz]>DMaOGCSTz0
+R13
+31
+!i10b 1
+Z22 !s108 1731015416.534000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte D/tb_Parte_D.vhd|
+Z24 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte D/tb_Parte_D.vhd|
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 10 tb_parte_d 0 22 >?P832Pf<nWLm7TdYQkDz1
+l33
+L7
+VBd7jd6;7b[gDT>i3mgL@n0
+!s100 6l8WFfQoZH><oTkUJWZGH2
+R13
+31
+!i10b 1
+R22
+R23
+R24
+R17
+R18

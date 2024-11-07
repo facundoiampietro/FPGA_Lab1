@@ -1,0 +1,71 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY tb_Parte_D IS
+END tb_Parte_D;
+
+ARCHITECTURE behavior OF tb_Parte_D IS
+    -- Component declaration for the unit under test (UUT)
+    COMPONENT Parte_D
+        PORT (
+            reset : IN STD_LOGIC;
+            clock : IN STD_LOGIC;
+            x : IN STD_LOGIC;
+            Z4 : OUT STD_LOGIC;
+            Z3 : OUT STD_LOGIC;
+            Z2 : OUT STD_LOGIC;
+            Z1 : OUT STD_LOGIC
+        );
+    END COMPONENT;
+
+    -- Signals to connect to the UUT
+    SIGNAL reset_tb : STD_LOGIC := '0';
+    SIGNAL clock_tb : STD_LOGIC := '0';
+    SIGNAL x_tb : STD_LOGIC := '0';
+    SIGNAL Z4_tb : STD_LOGIC;
+    SIGNAL Z3_tb : STD_LOGIC;
+    SIGNAL Z2_tb : STD_LOGIC;
+    SIGNAL Z1_tb : STD_LOGIC;
+
+BEGIN
+    -- Instantiate the Unit Under Test (UUT)
+    uut: Parte_D PORT MAP (
+        reset => reset_tb,
+        clock => clock_tb,
+        x => x_tb,
+        Z4 => Z4_tb,
+        Z3 => Z3_tb,
+        Z2 => Z2_tb,
+        Z1 => Z1_tb
+    );
+
+    -- Clock generation
+    CLK_PROCESS : PROCESS
+    BEGIN
+        clock_tb <= '0';
+        WAIT FOR 10 ns;
+        clock_tb <= '1';
+        WAIT FOR 10 ns;
+    END PROCESS CLK_PROCESS;
+
+    -- Stimulus process
+    STIMULUS_PROCESS : PROCESS
+    BEGIN
+        -- Initialize signals
+        reset_tb <= '1';  -- Apply reset
+        WAIT FOR 20 ns;
+        
+        reset_tb <= '0';  -- Release reset
+        x_tb <= '0';      -- Set x = 0
+        WAIT FOR 40 ns;
+
+        x_tb <= '1';      -- Set x = 1
+        WAIT FOR 40 ns;
+
+        -- Apply more test cases here
+        -- You can toggle x, reset, and observe the outputs Z4, Z3, Z2, Z1
+
+        WAIT;
+    END PROCESS STIMULUS_PROCESS;
+
+END behavior;

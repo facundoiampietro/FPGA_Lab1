@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte D\Template
+Etb_template_parte_d
+Z1 w1731018380
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Facu\Documents\FPGA_Lab1\Parte D\Template
+Z5 8C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/tb_Template_Parte_D.vhd
+Z6 FC:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/tb_Template_Parte_D.vhd
+l0
+L4
+V8HndohAmW2cmd^`I7:AE40
+!s100 Y]DA1[dCTVeDXHid6<aWm3
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1731018428.080000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/tb_Template_Parte_D.vhd|
+Z10 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/tb_Template_Parte_D.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavior
+R2
+R3
+DEx4 work 19 tb_template_parte_d 0 22 8HndohAmW2cmd^`I7:AE40
+l27
+L7
+V8kE4bT]g@KGiY9<63ZEb;0
+!s100 ?0gQj]z1QOnLXUMbGlNIZ0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Etemplate_parte_d
+Z13 w1731016765
+R2
+R3
+R4
+Z14 8C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/Template_Parte_D.vhd
+Z15 FC:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/Template_Parte_D.vhd
+l0
+L11
+V6W5cNgnATAg3@7f0_b6;]3
+R7
+31
+Z16 !s108 1731018428.017000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/Template_Parte_D.vhd|
+Z18 !s107 C:/Users/Facu/Documents/FPGA_Lab1/Parte D/Template/Template_Parte_D.vhd|
+R11
+R12
+!s100 8^UiBS[f9DV`jfo:iORE[2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 16 template_parte_d 0 22 6W5cNgnATAg3@7f0_b6;]3
+l30
+L22
+VL?>j4FDD`NzQPXFOHz32O2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 SXLNHXz;f8gWQbH2EkQZT1
+!i10b 1
