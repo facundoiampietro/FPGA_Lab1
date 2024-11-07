@@ -1,0 +1,9 @@
+
+State Machine - |control_i2c|fstate
+Name fstate.Guarda_dato fstate.ACKNOLEDGEMENT fstate.RW fstate.Guarda_dir fstate.Start fstate.Idle 
+fstate.Idle 0 0 0 0 0 0 
+fstate.Start 0 0 0 0 1 1 
+fstate.Guarda_dir 0 0 0 1 0 1 
+fstate.RW 0 0 1 0 0 1 
+fstate.ACKNOLEDGEMENT 0 1 0 0 0 1 
+fstate.Guarda_dato 1 0 0 0 0 1 
