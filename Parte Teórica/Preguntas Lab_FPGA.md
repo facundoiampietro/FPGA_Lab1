@@ -84,100 +84,59 @@ end behavioral;
 
 ### **7\) Descripción en VHDL del test bench del sumador completo de un bit**
 
-\`\`\`vhdl
-
-library IEEE;
-
+\`\`\`vhdl  
+library IEEE;  
 use IEEE.STD\_LOGIC\_1164.ALL;
 
-entity sumador\_completo\_tb is
-
+entity sumador\_completo\_tb is  
 end sumador\_completo\_tb;
 
-architecture test of sumador\_completo\_tb is
-
-    component sumador\_completo
-
-        port (
-
-            A, B, Carry\_in : in std\_logic;
-
-            Sum, Carry\_out : out std\_logic
-
-        );
-
+architecture test of sumador\_completo\_tb is  
+    component sumador\_completo  
+        port (  
+            A, B, Carry\_in : in std\_logic;  
+            Sum, Carry\_out : out std\_logic  
+        );  
     end component;
 
-    signal A, B, Carry\_in : std\_logic;  \-- Entradas para el sumador
-
+    signal A, B, Carry\_in : std\_logic;  \-- Entradas para el sumador  
     signal Sum, Carry\_out : std\_logic;  \-- Salidas del sumador
 
 begin
 
-    \-- Instancia del sumador completo
-
-    UUT: sumador\_completo port map (
-
-        A \=\> A,
-
-        B \=\> B,
-
-        Carry\_in \=\> Carry\_in,
-
-        Sum \=\> Sum,
-
-        Carry\_out \=\> Carry\_out
-
+    \-- Instancia del sumador completo  
+    UUT: sumador\_completo port map (  
+        A \=\> A,  
+        B \=\> B,  
+        Carry\_in \=\> Carry\_in,  
+        Sum \=\> Sum,  
+        Carry\_out \=\> Carry\_out  
     );
 
-    \-- Proceso de prueba
-
-    process
-
-    begin
-
-        \-- Prueba de todas las combinaciones de entradas
-
-        A \<= '0'; B \<= '0'; Carry\_in \<= '0';
-
-        wait for 10 ns;
-
-        A \<= '0'; B \<= '0'; Carry\_in \<= '1';
-
-        wait for 10 ns;
-
-        A \<= '0'; B \<= '1'; Carry\_in \<= '0';
-
-        wait for 10 ns;
-
-        A \<= '0'; B \<= '1'; Carry\_in \<= '1';
-
-        wait for 10 ns;
-
-        A \<= '1'; B \<= '0'; Carry\_in \<= '0';
-
-        wait for 10 ns;
-
-        A \<= '1'; B \<= '0'; Carry\_in \<= '1';
-
-        wait for 10 ns;
-
-        A \<= '1'; B \<= '1'; Carry\_in \<= '0';
-
-        wait for 10 ns;
-
-        A \<= '1'; B \<= '1'; Carry\_in \<= '1';
-
-        wait for 10 ns;
-
-        
-
-        \-- Finaliza la simulación
-
-        wait;
-
+    \-- Proceso de prueba  
+    process  
+    begin  
+        \-- Prueba de todas las combinaciones de entradas  
+        A \<= '0'; B \<= '0'; Carry\_in \<= '0';  
+        wait for 10 ns;  
+        A \<= '0'; B \<= '0'; Carry\_in \<= '1';  
+        wait for 10 ns;  
+        A \<= '0'; B \<= '1'; Carry\_in \<= '0';  
+        wait for 10 ns;  
+        A \<= '0'; B \<= '1'; Carry\_in \<= '1';  
+        wait for 10 ns;  
+        A \<= '1'; B \<= '0'; Carry\_in \<= '0';  
+        wait for 10 ns;  
+        A \<= '1'; B \<= '0'; Carry\_in \<= '1';  
+        wait for 10 ns;  
+        A \<= '1'; B \<= '1'; Carry\_in \<= '0';  
+        wait for 10 ns;  
+        A \<= '1'; B \<= '1'; Carry\_in \<= '1';  
+        wait for 10 ns;  
+          
+        \-- Finaliza la simulación  
+        wait;  
     end process;
 
 end test;
 
-\`\`\`
