@@ -29,7 +29,8 @@ El FPGA Cyclone III de Intel utiliza celdas de programación basadas en Celdas d
 
 ### **5\) Descripción en VHDL de un Flip Flop JK**
 
-\`\`\`vhdl  
+\`\`vhdl
+
 library IEEE;  
 use IEEE.STD\_LOGIC\_1164.ALL;
 
@@ -63,7 +64,7 @@ end Behavioral;
 
 \`\`\`  
 **6\) Descripción en VHDL de un sumador completo de un bit**  
-**\`\`\`**vhdl  
+**\`\`**vhdl  
 library IEEE;  
 use IEEE.STD\_LOGIC\_1164.ALL;
 
@@ -84,7 +85,7 @@ end behavioral;
 
 ### **7\) Descripción en VHDL del test bench del sumador completo de un bit**
 
-\`\`\`vhdl  
+\`\`vhdl  
 library IEEE;  
 use IEEE.STD\_LOGIC\_1164.ALL;
 
@@ -138,5 +139,5 @@ begin
         wait;  
     end process;
 
-end test;
-
+end test;  
+\`\`\`  
