@@ -1,0 +1,75 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do control_i2c_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte E/control_esclavo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_esclavo
+# -- Compiling architecture bdf_type of control_esclavo
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte E/control_i2c.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_i2c
+# -- Compiling architecture BEHAVIOR of control_i2c
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte E/almacenar_data.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity almacenar_data
+# -- Compiling architecture behavior of almacenar_data
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte E/almacenar_direcci�n.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity almacenar_dir
+# -- Compiling architecture behavior of almacenar_dir
+# 
+# vcom -93 -work work {C:/Users/Facu/Documents/FPGA_Lab1/Parte E/tb_control_esclavo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_control_esclavo
+# -- Compiling architecture behavior of tb_control_esclavo
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  tb_control_esclavo
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_control_esclavo 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_control_esclavo(behavior)
+# Loading work.control_esclavo(bdf_type)
+# Loading work.control_i2c(behavior)
+# Loading ieee.numeric_std(body)
+# Loading work.almacenar_data(behavior)
+# Loading work.almacenar_dir(behavior)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: La dirección es correcta, soy debería ser '1'
+#    Time: 150 ns  Iteration: 0  Instance: /tb_control_esclavo

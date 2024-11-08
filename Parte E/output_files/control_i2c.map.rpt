@@ -1,5 +1,5 @@
 Analysis & Synthesis report for control_i2c
-Thu Nov 07 20:12:34 2024
+Thu Nov 07 23:30:55 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,10 +13,14 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |control_i2c|fstate
-  9. General Register Statistics
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. State Machine - |control_esclavo|control_i2c:b2v_inst|fstate
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Port Connectivity Checks: "control_i2c:b2v_inst"
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
 
 
 
@@ -42,16 +46,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 07 20:12:34 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 07 23:30:55 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; control_i2c                                     ;
-; Top-level Entity Name              ; control_i2c                                     ;
+; Top-level Entity Name              ; control_esclavo                                 ;
 ; Family                             ; Cyclone III                                     ;
-; Total logic elements               ; 11                                              ;
-;     Total combinational functions  ; 11                                              ;
-;     Dedicated logic registers      ; 6                                               ;
-; Total registers                    ; 6                                               ;
-; Total pins                         ; 9                                               ;
+; Total logic elements               ; 0                                               ;
+;     Total combinational functions  ; 0                                               ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 3                                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -65,7 +69,7 @@ applicable agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP3C120F780C7      ;                    ;
-; Top-level entity name                                                      ; control_i2c        ; control_i2c        ;
+; Top-level entity name                                                      ; control_esclavo    ; control_i2c        ;
 ; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -157,43 +161,45 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                     ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
-; control_i2c.vhd                  ; yes             ; User VHDL File  ; C:/Users/Facu/Documents/FPGA_Lab1/Parte E/control_i2c.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                             ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                      ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
+; control_esclavo.vhd              ; yes             ; User VHDL File  ; C:/Users/Facu/Documents/FPGA_Lab1/Parte E/control_esclavo.vhd     ;         ;
+; control_i2c.vhd                  ; yes             ; User VHDL File  ; C:/Users/Facu/Documents/FPGA_Lab1/Parte E/control_i2c.vhd         ;         ;
+; almacenar_data.vhd               ; yes             ; User VHDL File  ; C:/Users/Facu/Documents/FPGA_Lab1/Parte E/almacenar_data.vhd      ;         ;
+; almacenar_dirección.vhd          ; yes             ; User VHDL File  ; C:/Users/Facu/Documents/FPGA_Lab1/Parte E/almacenar_dirección.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 11          ;
-;                                             ;             ;
-; Total combinational functions               ; 11          ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 5           ;
-;     -- 3 input functions                    ; 1           ;
-;     -- <=2 input functions                  ; 5           ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 11          ;
-;     -- arithmetic mode                      ; 0           ;
-;                                             ;             ;
-; Total registers                             ; 6           ;
-;     -- Dedicated logic registers            ; 6           ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 9           ;
-; Embedded Multiplier 9-bit elements          ; 0           ;
-; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 9           ;
-; Total fan-out                               ; 57          ;
-; Average fan-out                             ; 1.63        ;
-+---------------------------------------------+-------------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 3     ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; SDA   ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 3     ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -201,14 +207,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |control_i2c               ; 11 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 9    ; 0            ; |control_i2c        ; work         ;
+; |control_esclavo           ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 3    ; 0            ; |control_esclavo    ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |control_i2c|fstate                                                                                             ;
+; State Machine - |control_esclavo|control_i2c:b2v_inst|fstate                                                                    ;
 +-----------------------+--------------------+-----------------------+-----------+-------------------+--------------+-------------+
 ; Name                  ; fstate.Guarda_dato ; fstate.ACKNOLEDGEMENT ; fstate.RW ; fstate.Guarda_dir ; fstate.Start ; fstate.Idle ;
 +-----------------------+--------------------+-----------------------+-----------+-------------------+--------------+-------------+
@@ -221,12 +227,49 @@ Encoding Type:  One-Hot
 +-----------------------+--------------------+-----------------------+-----------+-------------------+--------------+-------------+
 
 
++------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                       ;
++--------------------------------------------+---------------------------------------------+
+; Register name                              ; Reason for Removal                          ;
++--------------------------------------------+---------------------------------------------+
+; almacenar_dir:b2v_inst4|registro[6]        ; Stuck at GND due to stuck port clock_enable ;
+; almacenar_dir:b2v_inst4|fin_dir            ; Lost fanout                                 ;
+; almacenar_dir:b2v_inst4|registro[0..5]     ; Lost fanout                                 ;
+; almacenar_data:b2v_inst2|fin_dato          ; Lost fanout                                 ;
+; almacenar_dir:b2v_inst4|contador[0..2]     ; Lost fanout                                 ;
+; almacenar_data:b2v_inst2|contador[0..2]    ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.Idle           ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.Start          ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.Guarda_dir     ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.RW             ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.ACKNOLEDGEMENT ; Lost fanout                                 ;
+; control_i2c:b2v_inst|fstate.Guarda_dato    ; Lost fanout                                 ;
+; Total Number of Removed Registers = 21     ;                                             ;
++--------------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                          ;
++-------------------------------------+--------------------------------+-------------------------------------------------------------------------------+
+; Register name                       ; Reason for Removal             ; Registers Removed due to This Register                                        ;
++-------------------------------------+--------------------------------+-------------------------------------------------------------------------------+
+; almacenar_dir:b2v_inst4|registro[6] ; Stuck at GND                   ; almacenar_dir:b2v_inst4|fin_dir, almacenar_dir:b2v_inst4|registro[0],         ;
+;                                     ; due to stuck port clock_enable ; almacenar_dir:b2v_inst4|registro[1], almacenar_dir:b2v_inst4|registro[2],     ;
+;                                     ;                                ; almacenar_dir:b2v_inst4|registro[3], almacenar_dir:b2v_inst4|registro[4],     ;
+;                                     ;                                ; almacenar_dir:b2v_inst4|registro[5], almacenar_dir:b2v_inst4|contador[1],     ;
+;                                     ;                                ; almacenar_dir:b2v_inst4|contador[0], almacenar_dir:b2v_inst4|contador[2],     ;
+;                                     ;                                ; control_i2c:b2v_inst|fstate.Guarda_dir                                        ;
+; almacenar_data:b2v_inst2|fin_dato   ; Lost Fanouts                   ; almacenar_data:b2v_inst2|contador[2], almacenar_data:b2v_inst2|contador[1],   ;
+;                                     ;                                ; almacenar_data:b2v_inst2|contador[0], control_i2c:b2v_inst|fstate.Guarda_dato ;
++-------------------------------------+--------------------------------+-------------------------------------------------------------------------------+
+
+
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 6     ;
+; Total registers                              ; 0     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -234,6 +277,25 @@ Encoding Type:  One-Hot
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |control_esclavo|almacenar_dir:b2v_inst4|contador[0]  ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |control_esclavo|almacenar_data:b2v_inst2|contador[2] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "control_i2c:b2v_inst"                                                               ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; ack  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -251,24 +313,41 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 07 20:12:33 2024
+    Info: Processing started: Thu Nov 07 23:30:53 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off control_i2c -c control_i2c
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file control_esclavo.vhd
+    Info (12022): Found design unit 1: control_esclavo-bdf_type
+    Info (12023): Found entity 1: control_esclavo
 Info (12021): Found 2 design units, including 1 entities, in source file control_i2c.vhd
     Info (12022): Found design unit 1: control_i2c-BEHAVIOR
     Info (12023): Found entity 1: control_i2c
-Info (12127): Elaborating entity "control_i2c" for the top level hierarchy
-Info (286030): Timing-Driven Synthesis is running
+Info (12021): Found 2 design units, including 1 entities, in source file almacenar_data.vhd
+    Info (12022): Found design unit 1: almacenar_data-behavior
+    Info (12023): Found entity 1: almacenar_data
+Info (12021): Found 2 design units, including 1 entities, in source file almacenar_dirección.vhd
+    Info (12022): Found design unit 1: almacenar_dir-behavior
+    Info (12023): Found entity 1: almacenar_dir
+Info (12127): Elaborating entity "control_esclavo" for the top level hierarchy
+Info (12128): Elaborating entity "control_i2c" for hierarchy "control_i2c:b2v_inst"
+Info (12128): Elaborating entity "almacenar_data" for hierarchy "almacenar_data:b2v_inst2"
+Warning (10036): Verilog HDL or VHDL warning at almacenar_data.vhd(17): object "registro" assigned a value but never read
+Info (12128): Elaborating entity "almacenar_dir" for hierarchy "almacenar_dir:b2v_inst4"
+Warning (10540): VHDL Signal Declaration warning at almacenar_dirección.vhd(19): used explicit default value for signal "dir_almacenada" because signal was never assigned a value
+Info (17049): 20 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 6 input pins
-    Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 11 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4654 megabytes
-    Info: Processing ended: Thu Nov 07 20:12:34 2024
-    Info: Elapsed time: 00:00:01
+Warning (21074): Design contains 3 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SDA"
+    Warning (15610): No output dependent on input pin "reset"
+    Warning (15610): No output dependent on input pin "SCL"
+Info (21057): Implemented 3 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4670 megabytes
+    Info: Processing ended: Thu Nov 07 23:30:55 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

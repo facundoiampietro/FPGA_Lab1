@@ -1,5 +1,5 @@
 
-State Machine - |control_i2c|fstate
+State Machine - |control_esclavo|control_i2c:b2v_inst|fstate
 Name fstate.Guarda_dato fstate.ACKNOLEDGEMENT fstate.RW fstate.Guarda_dir fstate.Start fstate.Idle 
 fstate.Idle 0 0 0 0 0 0 
 fstate.Start 0 0 0 0 1 1 

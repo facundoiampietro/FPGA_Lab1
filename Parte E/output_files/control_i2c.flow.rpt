@@ -1,5 +1,5 @@
 Flow report for control_i2c
-Thu Nov 07 20:12:57 2024
+Thu Nov 07 23:31:15 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 07 20:12:55 2024           ;
+; Flow Status                        ; Successful - Thu Nov 07 23:31:12 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; control_i2c                                     ;
-; Top-level Entity Name              ; control_i2c                                     ;
+; Top-level Entity Name              ; control_esclavo                                 ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 11 / 119,088 ( < 1 % )                          ;
-;     Total combinational functions  ; 11 / 119,088 ( < 1 % )                          ;
-;     Dedicated logic registers      ; 6 / 119,088 ( < 1 % )                           ;
-; Total registers                    ; 6                                               ;
-; Total pins                         ; 9 / 532 ( 2 % )                                 ;
+; Total logic elements               ; 0 / 119,088 ( 0 % )                             ;
+;     Total combinational functions  ; 0 / 119,088 ( 0 % )                             ;
+;     Dedicated logic registers      ; 0 / 119,088 ( 0 % )                             ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 3 / 532 ( < 1 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                           ;
 ; Embedded Multiplier 9-bit elements ; 0 / 576 ( 0 % )                                 ;
@@ -64,26 +64,29 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/07/2024 20:12:33 ;
+; Start date & time ; 11/07/2024 23:30:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; control_i2c         ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                              ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 929346426038.173102115319548 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                           ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                            ; --            ; --          ; --         ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                         ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --         ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------------+---------------+-----------------+------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name     ; Section Id ;
++-------------------------------------+---------------------------------------+---------------+-----------------+------------+
+; COMPILER_SIGNATURE_ID               ; 929346426038.173103305418288          ; --            ; --              ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --              ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --              ; --         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --              ; --         ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; control_esclavo ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; control_esclavo ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; control_esclavo ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --              ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --              ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --              ; --         ;
+; TOP_LEVEL_ENTITY                    ; control_esclavo                       ; control_i2c   ; --              ; --         ;
++-------------------------------------+---------------------------------------+---------------+-----------------+------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -91,11 +94,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4654 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:15     ; 1.0                     ; 5063 MB             ; 00:00:15                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4570 MB             ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4658 MB             ; 00:00:02                           ;
-; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:22                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4659 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:13     ; 1.0                     ; 4995 MB             ; 00:00:12                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4566 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4659 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:20     ; --                      ; --                  ; 00:00:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

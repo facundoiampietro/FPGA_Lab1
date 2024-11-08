@@ -1,5 +1,5 @@
 Assembler report for control_i2c
-Thu Nov 07 20:12:55 2024
+Thu Nov 07 23:31:12 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -37,9 +37,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Nov 07 20:12:55 2024 ;
+; Assembler Status      ; Successful - Thu Nov 07 23:31:12 2024 ;
 ; Revision Name         ; control_i2c                           ;
-; Top-level Entity Name ; control_i2c                           ;
+; Top-level Entity Name ; control_esclavo                       ;
 ; Family                ; Cyclone III                           ;
 ; Device                ; EP3C120F780C7                         ;
 +-----------------------+---------------------------------------+
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                         ;
 +----------------+---------------------------------------------------------------------------------+
 ; Device         ; EP3C120F780C7                                                                   ;
-; JTAG usercode  ; 0x00563D48                                                                      ;
-; Checksum       ; 0x00563D48                                                                      ;
+; JTAG usercode  ; 0x0056248D                                                                      ;
+; Checksum       ; 0x0056248D                                                                      ;
 +----------------+---------------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 07 20:12:51 2024
+    Info: Processing started: Thu Nov 07 23:31:09 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off control_i2c -c control_i2c
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4570 megabytes
-    Info: Processing ended: Thu Nov 07 20:12:55 2024
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 4566 megabytes
+    Info: Processing ended: Thu Nov 07 23:31:12 2024
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:04
 
 
