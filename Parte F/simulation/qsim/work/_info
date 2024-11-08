@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Facu\Documents\FPGA_Lab1\Parte F\simulation\qsim
+vdivisor
+Z1 Ic2X=k<:KY9GhKdNn80`;_1
+Z2 VMFUMlWlJ>MkL>okULELVn1
+Z3 dC:\Users\Facu\Documents\FPGA_Lab1\Parte F\simulation\qsim
+Z4 w1731028517
+Z5 8Parte_F.vo
+Z6 FParte_F.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Parte_F.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 I@XZZEPDU0k_2gc?cP@gN0
+!s85 0
+Z11 !s108 1731028517.864000
+Z12 !s107 Parte_F.vo|
+!s101 -O0
+vdivisor_vlg_check_tst
+!i10b 1
+Z13 !s100 go?Y4zl9Lnl;<L7Jlo>5h3
+Z14 IB;[c7S^N<f?ROPS=@nk0l3
+Z15 ViJiFDHl;2U80WO<2I?E=Z0
+R3
+Z16 w1731028516
+Z17 8Parte_F.vt
+Z18 FParte_F.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1731028517.933000
+Z20 !s107 Parte_F.vt|
+Z21 !s90 -work|work|Parte_F.vt|
+!s101 -O0
+R9
+vdivisor_vlg_sample_tst
+!i10b 1
+Z22 !s100 =Y3oi1[ig`KHPe38iZUe60
+Z23 IZ64e0z7^Hj;ADUd4i9jl?3
+Z24 VLzjX>ngTE?=cl3gDHB]mZ3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vdivisor_vlg_vec_tst
+!i10b 1
+Z25 !s100 4MjZYj7Ve]MD3WJAb17R<3
+Z26 Ihno`afhE;dThX1NCD0OE93
+Z27 VCZ<Vz<_fdZaO30[d=3T;j2
+R3
+R16
+R17
+R18
+Z28 L0 315
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
